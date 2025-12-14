@@ -1,0 +1,143 @@
+import React from 'react'
+import Logo from '../assets/images/ProsoftLogoDark.png'
+
+const Footer = () => {
+  const QUICK_LINKS = [
+    { label: "Home", href: "/" },
+    { label: "Who We Are", href: "/whoweare" },
+    { label: "What We Do", href: "/whatwedo" },
+    { label: "News", href: "/newsPage" },
+    { label: "Join Us", href: "/signup" },
+  ];
+
+
+  return (
+    <div className='w-full'>
+        {/* Main Footer */}
+      <div className="bg-[#ED7D31] text-white px-6 md:px-8 lg:px-16 py-10 md:py-12">
+        <div className="mx-auto max-w-7xl grid gap-12 md:gap-10 lg:gap-16 grid-cols-1 md:grid-cols-3">
+            {/* Logo, About and Social Icons */}
+            <section className="space-y-6">
+            <div
+              className="flex items-center justify-center md:justify-start"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-ease="linear"
+            >
+              <img
+                src={Logo}
+                alt="Women in Travel Collective"
+                className="h-8 md:h-16"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+
+            <p
+              className="text-white font-bold opacity-80 text-justify md:text-justify text-sm md:text-base max-w-md mx-auto md:mx-0"
+              data-aos="fade-up"
+              data-aos-delay="220"
+              data-aos-ease="linear"
+            >
+              Prosoft specializes in providing both quantitative and qualitative research services, offering comprehensive insights to help businesses make data-driven decisions. We employ advanced methodologies and tools to deliver accurate, actionable results tailored to our clients' specific needs.. 
+            </p>
+
+            {/* Social Icons */}
+            <div
+              className="flex justify-center md:justify-start gap-3"
+              data-aos="fade-up"
+              data-aos-delay="240"
+              data-aos-ease="linear"
+            >
+              {/* {SOCIALS.map(({ icon, label, href }) => (
+                <a
+                  key={label}
+                  aria-label={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full hover:bg-white hover:text-[#4A1D2C] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+                >
+                  {icon}
+                </a>
+              ))} */}
+            </div>
+          </section>
+          
+            {/* Quick Links */}
+                      <nav
+            className="md:mx-auto"
+            data-aos="fade-up"
+            data-aos-delay="300"
+            data-aos-ease="linear"
+          >
+            <h3 className="text-sm md:text-base font-[700] underline mb-4 text-center md:text-left">
+              Quick link
+            </h3>
+            <ul className="space-y-2 text-[#F6EBD3] text-sm md:text-base font-[500] text-center md:text-left">
+              {QUICK_LINKS.map(({ label, href }) => (
+                <li key={label}>
+                  <a href={href} className="hover:underline">
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+            {/* Contact Links */}
+            <section
+            data-aos="fade-up"
+            data-aos-delay="340"
+            data-aos-ease="linear"
+            className="text-center md:text-left"
+          >
+            <h3 className="text-sm md:text-base font-[700] underline mb-4">
+              Get In Touch
+            </h3>
+            <ul className="space-y-2 text-[#F6EBD3] text-sm md:text-base font-[500]">
+              {/* If you want the address back, uncomment: 
+              <li>4679 Pin Oak Drive</li>
+              <li>New Hyde Park, NC</li> 
+              */}
+              <li>
+                <a
+                  href="mailto:info@womenintravelcollective.com"
+                  className="hover:underline break-words"
+                >
+                  info@prosoft.com
+                </a>
+              </li>
+              <li className="pt-2">
+                <button
+                  type="button"
+                  onClick={() => navigate("/signup")}
+                  className="px-8 md:px-10 py-2 bg-white text-[#561D27] rounded-full font-bold hover:opacity-95 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+                >
+                  Join Us
+                </button>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+
+        {/* Bottom bar */}
+        <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#ED7D31] text-sm ">
+            <div className='text-center'>
+                <p>© {new Date().getFullYear()} Prosoft. All rights reserved.</p>
+            </div>
+            <div className='flex justify-center text-center'>
+            <a href='/terms' className='mt-4 md:mt-1'>Terms & Conditions &nbsp;&nbsp;</a>
+            <p className='mt-4 md:mt-1'>|</p>
+            <a href="/privacy" className='mt-4 md:mt-1'>&nbsp; &nbsp; Privacy Policy</a>
+            </div>
+            <div className='text-center mt-4 md:mt-0 ext-sm'>
+                <p className=''>Website Design & Developed By <a href="https://denver-manoj.netlify.app/" className='text-[#BECC5B]'>D M A</a></p>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Footer
