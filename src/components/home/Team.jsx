@@ -35,7 +35,7 @@ const Team = () => {
     };
 
     return (
-        <div className="p-8 text-center bg-amber-50">
+        <div className="p-8 text-center bg-[#E6E7E9]">
             <h1 className='text-4xl mb-12 font-bold text-[#00B0F0] uppercase text-left ml-4 md:ml-24' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Our Team</h1>
             <div className="max-w-6xl mx-auto">
                 <Slider {...sliderSettings}>

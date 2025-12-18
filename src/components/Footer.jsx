@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div className='w-full'>
         {/* Main Footer */}
-      <div className="bg-[#00C3F3] text-white px-6 md:px-8 lg:px-16 py-10 md:py-12">
+      <div className="bg-[#E6E7E9] text-[#00C3F3] px-6 md:px-8 lg:px-16 py-10 md:py-12">
         <div className="mx-auto max-w-7xl grid gap-12 md:gap-10 lg:gap-16 grid-cols-1 md:grid-cols-3">
             {/* Logo, About and Social Icons */}
             <section className="space-y-6">
@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
 
             <p
-              className="text-white font-bold opacity-80 text-justify md:text-justify text-sm md:text-base max-w-md mx-auto md:mx-0"
+              className="text-[#00C3F3] font-bold opacity-80 text-justify md:text-justify text-sm md:text-base max-w-md mx-auto md:mx-0"
               data-aos="fade-up"
               data-aos-delay="220"
               data-aos-ease="linear"
@@ -73,7 +73,7 @@ const Footer = () => {
             <h3 className="text-sm md:text-base font-[700] underline mb-4 text-center md:text-left">
               Quick link
             </h3>
-            <ul className="space-y-2 text-[#F6EBD3] text-sm md:text-base font-[500] text-center md:text-left">
+            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-[500] text-center md:text-left">
               {QUICK_LINKS.map(({ label, href }) => (
                 <li key={label}>
                   <a href={href} className="hover:underline">
@@ -94,7 +94,7 @@ const Footer = () => {
             <h3 className="text-sm md:text-base font-[700] underline mb-4">
               Get In Touch
             </h3>
-            <ul className="space-y-2 text-[#F6EBD3] text-sm md:text-base font-[500]">
+            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-[500]">
               {/* If you want the address back, uncomment: 
               <li>4679 Pin Oak Drive</li>
               <li>New Hyde Park, NC</li> 
@@ -111,7 +111,7 @@ const Footer = () => {
                 <button
                   type="button"
                   onClick={() => navigate("/signup")}
-                  className="px-8 md:px-10 py-2 bg-white text-[#561D27] rounded-full font-bold hover:opacity-95 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
+                  className="px-8 md:px-10 py-2 bg-[#006FB9] text-[#00C3F3] rounded-full font-bold hover:opacity-95 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
                 >
                   Join Us
                 </button>
@@ -122,7 +122,7 @@ const Footer = () => {
       </div>
 
         {/* Bottom bar */}
-        <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#00C3F3] text-sm ">
+        <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#E6E7E9] text-sm ">
             <div className='text-center'>
                 <p>© {new Date().getFullYear()} Prosoft. All rights reserved.</p>
             </div>

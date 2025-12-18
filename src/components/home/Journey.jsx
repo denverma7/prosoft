@@ -4,7 +4,7 @@ import JourneyMob from '../../assets/images/JourneyNew.png'
 
 const Journey = () => {
   return (
-    <div className='bg-amber-50 px-2 md:px-24 py-6 md:py-12' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+    <div className='bg-[#E6E7E9] px-2 md:px-24 py-6 md:py-12' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
         <div className='uppercase text-4xl text-[#0B96D2] font-bold mb-6 md:mb-8'>our journey</div>
         
         {/* Desktop Journey View */}
