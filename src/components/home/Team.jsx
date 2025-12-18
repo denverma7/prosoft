@@ -1,6 +1,6 @@
 import React from 'react'
-import Rasitha from '../../assets/images/team/Rasitha.png'
-import Thisaru from '../../assets/images/team/Thisaru.png'
+import Rasitha from '../../assets/images/team/Rasitha1.png'
+import Thisaru from '../../assets/images/team/Thisaru1.png'
 import Slider from "react-slick";
 
 

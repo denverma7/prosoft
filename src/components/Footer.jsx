@@ -3,18 +3,17 @@ import Logo from '../assets/images/ProsoftLogoDark.png'
 
 const Footer = () => {
   const QUICK_LINKS = [
-    { label: "Home", href: "/" },
-    { label: "Who We Are", href: "/whoweare" },
-    { label: "What We Do", href: "/whatwedo" },
-    { label: "News", href: "/newsPage" },
-    { label: "Join Us", href: "/signup" },
+    { label: "Who We Are", href: "/" },
+    { label: "What We Offer", href: "/products" },
+    { label: "Our Strength", href: "/strength" },
+    { label: "Contact Us", href: "/contact" },
   ];
 
 
   return (
     <div className='w-full'>
         {/* Main Footer */}
-      <div className="bg-[#ED7D31] text-white px-6 md:px-8 lg:px-16 py-10 md:py-12">
+      <div className="bg-[#00C3F3] text-white px-6 md:px-8 lg:px-16 py-10 md:py-12">
         <div className="mx-auto max-w-7xl grid gap-12 md:gap-10 lg:gap-16 grid-cols-1 md:grid-cols-3">
             {/* Logo, About and Social Icons */}
             <section className="space-y-6">
@@ -26,7 +25,7 @@ const Footer = () => {
             >
               <img
                 src={Logo}
-                alt="Women in Travel Collective"
+                alt="Prosoft Logo"
                 className="h-8 md:h-16"
                 loading="lazy"
                 decoding="async"
@@ -123,7 +122,7 @@ const Footer = () => {
       </div>
 
         {/* Bottom bar */}
-        <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#ED7D31] text-sm ">
+        <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#00C3F3] text-sm ">
             <div className='text-center'>
                 <p>© {new Date().getFullYear()} Prosoft. All rights reserved.</p>
             </div>

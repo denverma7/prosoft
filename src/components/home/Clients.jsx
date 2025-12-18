@@ -48,7 +48,7 @@ const Clients = () => {
       dots: false,
       infinite: true,
       speed: 500,
-      slidesToShow: 5,
+      slidesToShow: 6,
       slidesToScroll: 2,
       arrows: false,
       autoplay: true,
@@ -57,7 +57,7 @@ const Clients = () => {
       responsive: [
         { breakpoint: 1024, settings: { slidesToShow: 3 } },
         { breakpoint: 768, settings: { slidesToShow: 2 } },
-        { breakpoint: 480, settings: { slidesToShow: 3 } },
+        { breakpoint: 480, settings: { slidesToShow: 4 } },
       ],
     };
 
@@ -68,7 +68,7 @@ const Clients = () => {
         </div>
 
         {/* Client list 1 - Carousel */}
-        <div className='mt-12 mb-6 ml-6 md:ml-24 md:mr-24' data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
+        <div className='mt-12 mb-6 ml-2 md:ml-24 md:mr-24' data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
             <Slider {...sliderSettings}>
                 <div className='flex justify-center'>
                     <img src={Nestle} alt="Nestle logo" className='w-12 h-12 md:w-24 md:h-24 '/>
@@ -77,7 +77,7 @@ const Clients = () => {
                     <img src={Fonterra} alt="Fonterra Logo" className='w-12 h-12 md:w-24 md:h-24 '/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Sampath} alt="Sampath Bank Logo" className='w-24 h-12 md:w-48 md:h-20 ' />
+                    <img src={Sampath} alt="Sampath Bank Logo" className='w-24 h-12 md:w-48 md:h-18 ' />
                 </div>
                 <div className='flex justify-center'>
                     <img src={Keva} alt="Keva Logo" className='w-12 h-12 md:w-24 md:h-24 ' />

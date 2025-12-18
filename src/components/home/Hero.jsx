@@ -14,8 +14,8 @@ const Hero = () => {
   const [displayText, setDisplayText] = useState('');
   const [displaySubtext, setDisplaySubtext] = useState('');
   const [displayDescription, setDisplayDescription] = useState('');
-  const fullText = 'PROSOFT';
-  const fullSubtext = 'RESEARCH & INSIGHTS';
+  const fullText = 'Prosoft';
+  const fullSubtext = 'Research & Insights';
   const fullDescription = 'Think Ahead: Informed Choices for Your Brand';
   const charDelay = 100; // delay between each character
 
@@ -81,8 +81,8 @@ const Hero = () => {
         <div className="relative flex items-center py-12 md:py-24">
             <img src={Picture1} alt="" className='w-35 h-50 md:w-70 md:h-100 ml-4 md:ml-24' data-aos='fade-right' data-aos-duration='1000' data-aos-delay='200'/>
             <div className="md:ml-4" data-aos='fade-right' data-aos-duration='1000' data-aos-delay='200'>
-                <h3 className="uppercase md:tracking-wider text-[40px] md:text-[70px] font-extrabold text-[#ED7D31] min-h-0 md:min-h-24">{displayText}</h3>
-                <p className="text-[16px] md:text-[32px] font-semibold text-[#ED7D31] min-h-0 md:min-h-10 leading-tight md:leading-normal">{displaySubtext}</p>
+                <h3 className="md:tracking-wider leading-tight text-[40px] md:text-[80px] text-[#0B96D2] min-h-0 md:min-h-24">{displayText}</h3>
+                <p className="text-[14px] md:text-[24px] font-semibold text-[#D0C6BD] min-h-0 md:min-h-10 leading-tight md:leading-normal">{displaySubtext}</p>
                 <p className='text-[#7697D3] text-[8px] md:mt-2 md:text-[16px] font-bold min-h-5 leading-normal'>{displayDescription}</p>
             </div>
         </div>

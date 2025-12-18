@@ -26,8 +26,8 @@ const Header = () => {
         {/* Nav Links */}
         <div className="hidden md:flex space-x-8 items-center font-bold flex-1 justify-center ">
           <NavLink to="/" className={getLinkClass} end>Who We Are</NavLink>
-          <NavLink to="/about" className={getLinkClass}>What We Offer</NavLink>
-          <NavLink to="/treatments" className={getLinkClass}>Our Strengths</NavLink>
+          <NavLink to="/products" className={getLinkClass}>What We Offer</NavLink>
+          <NavLink to="/strength" className={getLinkClass}>Our Strengths</NavLink>
           <NavLink to="/contact" className={getLinkClass}>Contact Us</NavLink>
         </div>
         {/* Contact Info */}
