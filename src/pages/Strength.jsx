@@ -1,7 +1,7 @@
-import React from 'react'
-import ServiceAdvantages1 from '../components/ourStrength/ServiceAdvantages1'
-import ServiceAdvantages2 from '../components/ourStrength/ServiceAdvantages2'
-import FieldManagement from '../components/ourStrength/FieldManagement'
+import React from "react";
+import ServiceAdvantages1 from "../components/ourStrength/ServiceAdvantages1";
+import ServiceAdvantages2 from "../components/ourStrength/ServiceAdvantages2";
+import FieldManagement from "../components/ourStrength/FieldManagement";
 
 const Strength = () => {
   return (
@@ -10,7 +10,7 @@ const Strength = () => {
       <ServiceAdvantages2 />
       <FieldManagement />
     </div>
-  )
-}
+  );
+};
 
-export default Strength
+export default Strength;

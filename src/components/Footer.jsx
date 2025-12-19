@@ -1,5 +1,5 @@
-import React from 'react'
-import Logo from '../assets/images/ProsoftLogoDark.png'
+import React from "react";
+import Logo from "../assets/images/ProsoftLogoDark.png";
 
 const Footer = () => {
   const QUICK_LINKS = [
@@ -9,14 +9,13 @@ const Footer = () => {
     { label: "Contact Us", href: "/contact" },
   ];
 
-
   return (
-    <div className='w-full'>
-        {/* Main Footer */}
+    <div className="w-full">
+      {/* Main Footer */}
       <div className="bg-[#E6E7E9] text-[#00C3F3] px-6 md:px-8 lg:px-16 py-10 md:py-12">
         <div className="mx-auto max-w-7xl grid gap-12 md:gap-10 lg:gap-16 grid-cols-1 md:grid-cols-3">
-            {/* Logo, About and Social Icons */}
-            <section className="space-y-6">
+          {/* Logo, About and Social Icons */}
+          <section className="space-y-6">
             <div
               className="flex items-center justify-center md:justify-start"
               data-aos="fade-up"
@@ -38,7 +37,11 @@ const Footer = () => {
               data-aos-delay="220"
               data-aos-ease="linear"
             >
-              Prosoft specializes in providing both quantitative and qualitative research services, offering comprehensive insights to help businesses make data-driven decisions. We employ advanced methodologies and tools to deliver accurate, actionable results tailored to our clients' specific needs.. 
+              Prosoft specializes in providing both quantitative and qualitative
+              research services, offering comprehensive insights to help
+              businesses make data-driven decisions. We employ advanced
+              methodologies and tools to deliver accurate, actionable results
+              tailored to our clients' specific needs..
             </p>
 
             {/* Social Icons */}
@@ -62,9 +65,9 @@ const Footer = () => {
               ))} */}
             </div>
           </section>
-          
-            {/* Quick Links */}
-                      <nav
+
+          {/* Quick Links */}
+          <nav
             className="md:mx-auto"
             data-aos="fade-up"
             data-aos-delay="300"
@@ -84,8 +87,8 @@ const Footer = () => {
             </ul>
           </nav>
 
-            {/* Contact Links */}
-            <section
+          {/* Contact Links */}
+          <section
             data-aos="fade-up"
             data-aos-delay="340"
             data-aos-ease="linear"
@@ -121,22 +124,34 @@ const Footer = () => {
         </div>
       </div>
 
-        {/* Bottom bar */}
-        <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#E6E7E9] text-sm ">
-            <div className='text-center'>
-                <p>© {new Date().getFullYear()} Prosoft. All rights reserved.</p>
-            </div>
-            <div className='flex justify-center text-center'>
-            <a href='/terms' className='mt-4 md:mt-1'>Terms & Conditions &nbsp;&nbsp;</a>
-            <p className='mt-4 md:mt-1'>|</p>
-            <a href="/privacy" className='mt-4 md:mt-1'>&nbsp; &nbsp; Privacy Policy</a>
-            </div>
-            <div className='text-center mt-4 md:mt-0 ext-sm'>
-                <p className=''>Website Design & Developed By <a href="https://denver-manoj.netlify.app/" className='text-[#BECC5B]'>D M A</a></p>
-            </div>
+      {/* Bottom bar */}
+      <div className="md:flex mx-auto md:justify-between px-12 pb-4 pt-6 bg-[#006FB9] text-white text-sm ">
+        <div className="text-center">
+          <p>© {new Date().getFullYear()} Prosoft. All rights reserved.</p>
         </div>
+        <div className="flex justify-center text-center">
+          <a href="/terms" className="mt-4 md:mt-1">
+            Terms & Conditions &nbsp;&nbsp;
+          </a>
+          <p className="mt-4 md:mt-1">|</p>
+          <a href="/privacy" className="mt-4 md:mt-1">
+            &nbsp; &nbsp; Privacy Policy
+          </a>
+        </div>
+        <div className="text-center mt-4 md:mt-0 ext-sm">
+          <p className="">
+            Website Design & Developed By{" "}
+            <a
+              href="https://denver-manoj.netlify.app/"
+              className="text-[#BECC5B]"
+            >
+              D M A
+            </a>
+          </p>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
