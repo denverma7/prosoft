@@ -45,7 +45,7 @@ const ProductList = () => {
       {/* Heading */}
       <div>
         <h3
-          className="uppercase text-[#006FB9] text-4xl md:text-6xl ml-4 md:ml-0 pt-12 font-extralight"
+          className="uppercase text-[#006FB9] text-4xl md:text-6xl ml-4 md:ml-16 pt-12 font-extralight"
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-delay="1000"
@@ -53,7 +53,7 @@ const ProductList = () => {
           Our Services
         </h3>
         <p
-          className="text-[#00C3F3] py-3 ml-4 md:ml-0 font-semibold uppercase text-xl md:text-3xl tracking-wider"
+          className="text-[#00C3F3] py-3 ml-4 md:ml-16 font-semibold uppercase text-xl md:text-3xl tracking-wider"
           data-aos="fade-up"
           data-aos-duration="500"
           data-aos-delay="1000"

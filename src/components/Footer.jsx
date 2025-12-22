@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/images/ProsoftLogoDark.png";
+// import { navigate } from "react-router-dom";
 
 const Footer = () => {
   const QUICK_LINKS = [
@@ -73,10 +74,10 @@ const Footer = () => {
             data-aos-delay="300"
             data-aos-ease="linear"
           >
-            <h3 className="text-sm md:text-base font-[700] underline mb-4 text-center md:text-left">
+            <h3 className="text-sm md:text-base font-bold underline mb-4 text-center md:text-left">
               Quick link
             </h3>
-            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-[500] text-center md:text-left">
+            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium text-center md:text-left">
               {QUICK_LINKS.map(({ label, href }) => (
                 <li key={label}>
                   <a href={href} className="hover:underline">
@@ -94,18 +95,18 @@ const Footer = () => {
             data-aos-ease="linear"
             className="text-center md:text-left"
           >
-            <h3 className="text-sm md:text-base font-[700] underline mb-4">
+            <h3 className="text-sm md:text-base font-bold underline mb-4">
               Get In Touch
             </h3>
-            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-[500]">
+            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium">
               {/* If you want the address back, uncomment: 
               <li>4679 Pin Oak Drive</li>
               <li>New Hyde Park, NC</li> 
               */}
               <li>
                 <a
-                  href="mailto:info@womenintravelcollective.com"
-                  className="hover:underline break-words"
+                  href="mailto:info@prosoft.com"
+                  className="hover:underline wrap-break-words"
                 >
                   info@prosoft.com
                 </a>
@@ -113,7 +114,7 @@ const Footer = () => {
               <li className="pt-2">
                 <button
                   type="button"
-                  onClick={() => navigate("/signup")}
+                  // onClick={() => navigate("/signup")}
                   className="px-8 md:px-10 py-2 bg-[#006FB9] text-[#00C3F3] rounded-full font-bold hover:opacity-95 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
                 >
                   Join Us

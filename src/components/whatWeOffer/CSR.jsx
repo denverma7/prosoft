@@ -21,7 +21,7 @@ const CSR = () => {
           CSR
         </h3>
         <p
-          className="uppercase text-[#00C3F3] text-2xl md:text-3xl font-semibold tracking-wide mt-2"
+          className="uppercase text-[#00C3F3] md:ml-16 text-2xl md:text-3xl font-semibold tracking-wide mt-2"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="1000"
@@ -29,7 +29,7 @@ const CSR = () => {
           Monitoring & Evaluation
         </p>
         <p
-          className="text-white mt-3 tracking-wide max-w-4xl"
+          className="text-white mt-3 tracking-wide max-w-4xl md:ml-16"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="1000"

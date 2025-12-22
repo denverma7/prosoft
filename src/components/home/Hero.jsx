@@ -4,6 +4,7 @@ import Hero1 from "../../assets/images/hero/Hero1.jpg";
 import Hero2 from "../../assets/images/hero/Hero7.jpg";
 import Hero3 from "../../assets/images/hero/Hero3.jpg";
 import CrowdGif from "../../assets/images/crowd-indycar-on-nbc.gif";
+// import CrowdGif from "../../assets/images/crowd-walking.gif";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -104,7 +105,7 @@ const Hero = () => {
             className="w-full h-full object-cover"
           />
         </div>
-        <div className="relative flex items-center py-12 md:py-24">
+        <div className="relative flex items-center py-12 md:py-24 md:-ml-1">
           <img
             src={Picture1}
             alt=""
@@ -119,7 +120,7 @@ const Hero = () => {
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            <h3 className="md:tracking-wider leading-tight text-[40px] md:text-[80px] text-[#0B96D2] min-h-0 md:min-h-24">
+            <h3 className="md:tracking-wider leading-tight text-[40px] md:text-[80px] text-[#009BDF] min-h-0 md:min-h-24">
               {displayText}
             </h3>
             <p className="text-[14px] md:text-[24px] font-semibold text-[#D0C6BD] min-h-0 md:min-h-10 leading-tight md:leading-normal">

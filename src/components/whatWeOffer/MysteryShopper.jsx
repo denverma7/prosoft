@@ -4,9 +4,9 @@ import ArrowCircle from "../../assets/images/ArrowCircle.png";
 
 const MysteryShopper = () => {
   return (
-    <div className="relative bg-white mt-12 mb-12 overflow-hidden">
-      <div className="relative overflow-hidden bg-[#00C3F3] min-h-[600px] h-fu w-7xl mx-auto">
-        <div>
+    <div className="relative bg-white mt-12 mb-12">
+      <div className="relative overflow-hidden bg-[#00C3F3] min-h-[600px] h-full max-w-7xl w-full mx-auto">
+        <div className="relative md:static">
           <span
             className="absolute w-[900px] h-[900px] rounded-full bg-[#006FB9] -top-[520px] -left-60"
             data-aos="fade-up"
@@ -14,7 +14,7 @@ const MysteryShopper = () => {
             data-aos-delay="1000"
           ></span>
           <span
-            className="absolute text-white px-6 md:px-16 pt-16 text-5xl md:text-6xl font-extralight tracking-wide uppercase"
+            className="relative md:absolute block text-white px-6 md:pl-30 pt-16 text-5xl md:text-6xl font-extralight tracking-wide uppercase"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="1000"
@@ -22,7 +22,7 @@ const MysteryShopper = () => {
             Consumer
           </span>
           <span
-            className="absolute uppercase text-[#00C3F3] px-6 md:px-16 mt-[130px] ml-2 text-3xl md:text-4xl font-semibold tracking-wide"
+            className="relative md:absolute block uppercase text-[#00C3F3] px-6 md:pl-30 mt-2 md:mt-[130px] ml-2 text-3xl md:text-4xl font-semibold tracking-wide"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="1000"
@@ -30,24 +30,29 @@ const MysteryShopper = () => {
             Mystery Shopper
           </span>
           <span
-            className="absolute text-[#00c3F3] mt-46 ml-8 md:ml-20 font-medium"
+            className="relative md:absolute block text-[#00c3F3] mt-6 md:mt-46 ml-8 md:ml-32 font-medium pr-6 md:pr-0"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="1000"
           >
-            For Mystery Shopper Studies our trained <br />
-            enumerators pose are regular customers to <br />
-            assess the quality of service, customer <br />
-            experience, and operational standards at <br />
-            businesses, for retail, hospitality, or <br />
+            For Mystery Shopper Studies our trained{" "}
+            <br className="hidden md:block" />
+            enumerators pose are regular customers to{" "}
+            <br className="hidden md:block" />
+            assess the quality of service, customer{" "}
+            <br className="hidden md:block" />
+            experience, and operational standards at{" "}
+            <br className="hidden md:block" />
+            businesses, for retail, hospitality, or{" "}
+            <br className="hidden md:block" />
             service industries.
           </span>
         </div>
-        <div className="absolute mt-100 ml-8 md:ml-20">
+        <div className="relative md:absolute mt-20 md:mt-100 ml-8 md:ml-32 pb-10 md:pb-0">
           <span className="uppercase text-[#006FB9] font-extrabold text-xl">
             Prosoft offers you
           </span>
-          <ul className=" absolute space-y-1 text-black">
+          <ul className="mt-4 md:mt-0 md:absolute space-y-1 text-black">
             <li
               className="flex gap-3 items-start"
               data-aos="fade-up"
@@ -115,37 +120,57 @@ const MysteryShopper = () => {
             </li>
           </ul>
         </div>
-        <div className="absolute right-20 top-1/2 -translate-y-1/2 w-[500px] h-[500px]">
+        <div className="relative md:absolute flex right-10 mt-10 md:mt-0 md:right-20 md:top-1/2 md:-translate-y-1/2 w-[500px] h-[500px] mx-auto scale-[0.6] sm:scale-75 md:scale-100 origin-top md:origin-center  -mb-[200px] md:mb-0">
           <div className="relative w-full h-full">
-            <img src={ArrowCircle} alt="" className="w-[500px] inset-0" />
+            <img
+              src={ArrowCircle}
+              alt=""
+              className="w-[400px] md:w-[500px] inset-0"
+            />
             <div className="">
-              <p className="text-white -ml-[81px] -mt-[210px]">Ambiance</p>
-              <p className="text-white mt-24">
-                Service <br />
-                Information
-              </p>
-              <p className="text-white ml-36">
-                Service <br />
-                Experience
-              </p>
-              <p className="text-white ml-100 -mt-16">
+              <div>
+                <p className="text-white -ml-[81px] -mt-[180px] md:-mt-[210px]">Ambiance</p>
+              </div>
+              <div>
+                <p className="text-white mt-24">
+                  Service <br />
+                  Information
+                </p>
+              </div>
+              <div>
+                <p className="text-white ml-36">
+                  Service <br />
+                  Experience
+                </p>
+              </div>
+              <div>
+                <p className="text-white ml-84 -mt-12">
                 Transaction <br />
                 Process
               </p>
-              <p className="text-white ml-[450px] -mt-40">
-                After Service <br />
-                Customer <br />
-                Support
-              </p>
-              <p className="text-white ml-80 -mt-100">
-                Pre-Purchase <br />
-                experience
-              </p>
-              <p className="text-white ml-16 -mt-88">Arrival / Entry</p>
-              <p className="text-white ml-4 -mt-68">
-                Initial <br />
-                Interaction
-              </p>
+              </div>
+              <div>
+                <p className="flex text-white ml-[400px] md:ml-[450px] -mt-44">
+                  After Service <br />
+                  Customer <br />
+                  Support
+                </p>
+              </div>
+              <div>
+                <p className="text-white ml-64 md:ml-80 -mt-88 md:-mt-104">
+                  Pre-Purchase <br />
+                  experience
+                </p>
+              </div>
+              <div>
+                <p className="text-white ml-16">Arrival / Entry</p>
+              </div>
+              <div>
+                <p className="text-white -ml-[74px] mt-20">
+                  Initial <br />
+                  Interaction
+                </p>
+              </div>
             </div>
           </div>
         </div>
