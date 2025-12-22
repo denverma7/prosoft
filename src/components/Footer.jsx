@@ -111,7 +111,7 @@ const Footer = () => {
                   info@prosoft.com
                 </a>
               </li>
-              <li className="pt-2">
+              {/* <li className="pt-2">
                 <button
                   type="button"
                   // onClick={() => navigate("/signup")}
@@ -119,7 +119,7 @@ const Footer = () => {
                 >
                   Join Us
                 </button>
-              </li>
+              </li> */}
             </ul>
           </section>
         </div>
