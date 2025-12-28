@@ -1,6 +1,7 @@
 import React from "react";
 // import MysteryShopperArrow from './MysteryShopperArrow'
 import ArrowCircle from "../../assets/images/ArrowCircle.png";
+import { motion } from "framer-motion";
 
 const MysteryShopper = () => {
   return (
@@ -120,7 +121,12 @@ const MysteryShopper = () => {
             </li>
           </ul>
         </div>
-        <div className="relative md:absolute flex right-10 mt-10 md:mt-0 md:right-20 md:top-1/2 md:-translate-y-1/2 w-[500px] h-[500px] mx-auto scale-[0.6] sm:scale-75 md:scale-100 origin-top md:origin-center  -mb-[200px] md:mb-0">
+        <div
+          className="relative md:absolute flex right-10 mt-10 md:mt-0 md:right-20 md:top-1/2 md:-translate-y-1/2 w-[500px] h-[500px] mx-auto scale-[0.6] sm:scale-75 md:scale-100 origin-top md:origin-center  -mb-[200px] md:mb-0"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+        >
           <div className="relative w-full h-full">
             <img
               src={ArrowCircle}
@@ -128,49 +134,97 @@ const MysteryShopper = () => {
               className="w-[400px] md:w-[500px] inset-0"
             />
             <div className="">
-              <div>
-                <p className="text-white -ml-[81px] -mt-[180px] md:-mt-[210px]">Ambiance</p>
-              </div>
-              <div>
-                <p className="text-white mt-24">
+              <motion.div
+                className="w-fit -ml-[81px] -mt-[180px] md:-mt-[210px]"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white">Ambiance</p>
+              </motion.div>
+              <motion.div
+                className="mt-24"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white">
                   Service <br />
                   Information
                 </p>
-              </div>
-              <div>
-                <p className="text-white ml-36">
+              </motion.div>
+              <motion.div
+                className="ml-36"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white">
                   Service <br />
                   Experience
                 </p>
-              </div>
-              <div>
-                <p className="text-white ml-84 -mt-12">
-                Transaction <br />
-                Process
-              </p>
-              </div>
-              <div>
-                <p className="flex text-white ml-[400px] md:ml-[450px] -mt-44">
+              </motion.div>
+              <motion.div
+                className="ml-84 -mt-12"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white ">
+                  Transaction <br />
+                  Process
+                </p>
+              </motion.div>
+              <motion.div
+                className="ml-[400px] md:ml-[450px] -mt-44"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="flex text-white ">
                   After Service <br />
                   Customer <br />
                   Support
                 </p>
-              </div>
-              <div>
-                <p className="text-white ml-64 md:ml-80 -mt-88 md:-mt-104">
+              </motion.div>
+              <motion.div
+                className=" ml-64 md:ml-80 -mt-88 md:-mt-104"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white">
                   Pre-Purchase <br />
                   experience
                 </p>
-              </div>
-              <div>
-                <p className="text-white ml-16">Arrival / Entry</p>
-              </div>
-              <div>
-                <p className="text-white -ml-[74px] mt-20">
+              </motion.div>
+              <motion.div
+                className="ml-16"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white ">Arrival / Entry</p>
+              </motion.div>
+              <motion.div
+                className="-ml-[74px] mt-20"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.1 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
+              >
+                <p className="text-white ">
                   Initial <br />
                   Interaction
                 </p>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Visibility2 from "../../assets/images/visibility/Visibility2.png";
 import Visibility3 from "../../assets/images/visibility/Visibility3.png";
 import Visibility4 from "../../assets/images/visibility/Visibility4.png";
 import Visibility5 from "../../assets/images/visibility/Visibility5.png";
+import { motion } from "framer-motion";
 
 const cardData = [
   {
@@ -41,12 +42,20 @@ const InfoCard = ({ img, text, duration }) => (
     data-aos-duration={duration}
     data-aos-delay="1000"
   >
-    <div className="relative">
+    <motion.div
+      className="relative"
+      initial="rest"
+      whileHover="hover"
+    >
       <img src={img} alt={text.substring(0, 30)} className="w-full" />
-      <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-black text-center text-[11px] leading-tight w-11/12 whitespace-pre-line">
+      <motion.p
+        className="absolute top-1/2 left-1/2 text-black text-center text-[11px] leading-tight w-11/12 whitespace-pre-line"
+        variants={{ rest: { scale: 1, x: "-50%", y: "-50%" }, hover: { scale: 1.05, x: "-50%", y: "-50%" } }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
+      >
         {text}
-      </p>
-    </div>
+      </motion.p>
+    </motion.div>
   </div>
 );
 
@@ -62,9 +71,23 @@ const RetailVisibility = () => {
         <div className="flex flex-col">
           {/* Top Row: Stacks on mobile, row on desktop */}
           <div className="flex flex-col lg:flex-row mt-4 gap-4 lg:gap-0">
-            <div className="flex flex-row" data-aos="fade-up" data-aos-duration="700" data-aos-delay="1000">
-              <img src={Visibility} alt="Retail Visibility" className="h-auto lg:h-4/5 w-1/2 lg:w-auto" />
-              <div className="text-white ml-4" data-aos="fade-up" data-aos-duration="900" data-aos-delay="1000">
+            <div
+              className="flex flex-row"
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-delay="1000"
+            >
+              <img
+                src={Visibility}
+                alt="Retail Visibility"
+                className="h-auto lg:h-4/5 w-1/2 lg:w-auto"
+              />
+              <div
+                className="text-white ml-4"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="1000"
+              >
                 <h3 className="text-4xl md:text-6xl font-extralight tracking-wide uppercase mt-12 md:mt-24">
                   Retail
                 </h3>
@@ -84,7 +107,12 @@ const RetailVisibility = () => {
           </div>
 
           {/* Bottom Row: Stacks on mobile, row on desktop */}
-          <div className="flex flex-col sm:flex-row lg:flex-row gap-4 lg:gap-0 lg:-mt-1 lg:ml-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+          <div
+            className="flex flex-col sm:flex-row lg:flex-row gap-4 lg:gap-0 lg:-mt-1 lg:ml-12"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
             {/* Last three cards */}
             <InfoCard {...cardData[2]} />
             <InfoCard {...cardData[3]} />
