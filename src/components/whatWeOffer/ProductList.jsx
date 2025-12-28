@@ -46,9 +46,9 @@ const ProductList = () => {
       <div>
         <h3
           className="uppercase text-[#006FB9] text-4xl md:text-6xl ml-4 md:ml-16 pt-12 font-extralight"
-          data-aos="fade-up"
-          data-aos-duration="500"
-          data-aos-delay="1000"
+          // data-aos="fade-up"
+          // data-aos-duration="500"
+          // data-aos-delay="1000"
         >
           Our Services
         </h3>

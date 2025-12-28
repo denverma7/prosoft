@@ -20,7 +20,7 @@ const Hero = () => {
   const fullDescription = "Think Ahead: Informed Choices for Your Brand";
   const charDelay = 100; // delay between each character
 
-  const heroImages = [Hero1, Hero2, Hero3];
+  // const heroImages = [Hero1, Hero2, Hero3];
 
   useEffect(() => {
     AOS.init();
@@ -66,22 +66,22 @@ const Hero = () => {
     };
   }, []);
 
-  const sliderSettings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
-    speed: 1500,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-  };
+  // const sliderSettings = {
+  //   dots: false,
+  //   arrows: false,
+  //   infinite: true,
+  //   speed: 1500,
+  //   fade: true,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed: 4000,
+  //   cssEase: "linear",
+  // };
 
   return (
-    <div className="bg-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto bg-[#E6E7E9] min-h-[600px] overflow-hidden">
+    <div className="bg-white md:my-12 overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-8xl mx-auto bg-[#E6E7E9] min-h-[600px] overflow-hidden">
         <div
           className="flex items-center"
           data-aos="fade-left"

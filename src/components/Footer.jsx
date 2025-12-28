@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Logo from "../assets/images/ProsoftLogoDark.png";
-// import { navigate } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Footer = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   const QUICK_LINKS = [
     { label: "Who We Are", href: "/" },
     { label: "What We Offer", href: "/products" },
@@ -77,15 +84,21 @@ const Footer = () => {
             <h3 className="text-sm md:text-base font-bold underline mb-4 text-center md:text-left">
               Quick link
             </h3>
-            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium text-center md:text-left">
+            <motion.ul 
+              className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium text-center md:text-left"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, rotateX: 5 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+            >
               {QUICK_LINKS.map(({ label, href }) => (
                 <li key={label}>
-                  <a href={href} className="hover:underline">
+                  <Link to={href} className="hover:underline">
                     {label}
-                  </a>
+                  </Link>
                 </li>
               ))}
-            </ul>
+            </motion.ul>
           </nav>
 
           {/* Contact Links */}

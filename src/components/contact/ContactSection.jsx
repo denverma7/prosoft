@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MapPin, Phone, Mail } from "lucide-react";
 // import emailjs from "@emailjs/browser";
+import { motion } from "framer-motion";
 
 export default function ContactSection() {
   const [form, setForm] = useState({
@@ -69,8 +70,12 @@ export default function ContactSection() {
           </p>
 
           <div>
-            <div
+            <motion.div
               className="flex items-start gap-4 font-semibold"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, rotateX: 5 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
               data-aos="fade-up"
               data-aos-delay="700"
             >
@@ -89,9 +94,13 @@ export default function ContactSection() {
                   Schedule an appointment
                 </p>
               </div>
-            </div>
-            <div
+            </motion.div>
+            <motion.div
               className="flex items-start gap-4 font-semibold"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                whileHover={{ scale: 1.05, rotateX: 5 }}
+                transition={{ duration: 0.3, ease: "easeOut" }}
               data-aos="fade-up"
               data-aos-delay="800"
             >
@@ -105,9 +114,13 @@ export default function ContactSection() {
                   Monday to Friday, 10:00 AM - 5:00 PM
                 </p>
               </div>
-            </div>
-            <div
+            </motion.div>
+            <motion.div
               className="flex items-start gap-4 font-semibold"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              whileHover={{ scale: 1.05, rotateX: 5 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
               data-aos="fade-up"
               data-aos-delay="900"
             >
@@ -121,7 +134,7 @@ export default function ContactSection() {
                   Send us your questions anytime
                 </p>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
 
@@ -195,14 +208,21 @@ export default function ContactSection() {
               required
             ></textarea>
 
-            <button
+            <motion.button
               type="submit"
               className=" bg-[#00B0F0] hover:bg-[#037eab] text-white py-2 mt-6 rounded transition cursor-pointer"
+              // data-aos="fade-up"
+              // data-aos-delay="1100"
+              initial={{ scale: 0.95 }}
+              animate={{ scale: 1 }}
+              whileHover={{ scale: 1.1, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ duration: 0.3, ease: "easeInOut" }}
               data-aos="fade-up"
               data-aos-delay="1100"
             >
               Submit Now
-            </button>
+            </motion.button>
           </div>
         </form>
       </div>

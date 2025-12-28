@@ -1,7 +1,7 @@
 import React from "react";
 import Detractors from "../../assets/images/Detractors.png";
 import Passives from "../../assets/images/Passives.png";
-
+import Promotors from "../../assets/images/Promotors.png";
 
 const NPS = () => {
   return (
@@ -55,17 +55,65 @@ const NPS = () => {
         data-aos-duration="1000"
         data-aos-delay="1000"
       >
-        <div className="flex items-center mt-6 ml-30">
-            <p className="uppercase tracking-wider text-[#006FB9] text-2xl font-semibold">Detractors</p>
-            <hr className="w-80 h-0.5 bg-[#006FB9] border-0 ml-4 mt-2"/>
-            <p className="uppercase ml-1 tracking-wider text-[#00C3F3] text-2xl font-semibold">Passives</p>
-            <hr className="w-40 h-0.5 bg-[#00C3F3] border-0 ml-2 mr-2 mt-2"/>
-            <p className="uppercase text-[#acafb3] text-2xl font-semibold tracking-wider">Promoters</p>
-            <hr className="w-20 h-0.5 bg-[#ACAFB3] border-0 ml-2 mr-2 mt-2"/>
+        <div className="flex items-center mt-3 ml-6 md:ml-30 mx-auto">
+          <p className="uppercase tracking-wider text-[#006FB9] text-2xl font-semibold">
+            Detractors
+          </p>
+          <hr className="w-80 h-0.5 bg-[#006FB9] border-0 ml-4 mt-2 mr-4" />
+          <p className="uppercase ml-1 tracking-wider text-[#00C3F3] text-2xl font-semibold">
+            Passives
+          </p>
+          <hr className="w-24 h-0.5 bg-[#00C3F3] border-0 ml-2 mr-2 mt-2" />
+          <p className="uppercase text-[#acafb3] text-2xl font-semibold tracking-wider">
+            Promoters
+          </p>
+          <hr className="w-15 h-0.5 bg-[#ACAFB3] border-0 ml-2 mr-2 mt-2" />
         </div>
-        <div className="flex items-center mt-6 ml-30">
-            <img src={Detractors} alt="" className="w-125" />
-            <img src={Passives} className="w-52 ml-3"alt="" />
+        <div className="flex items-center mt-2 ml-6 md:ml-30">
+          <img src={Detractors} alt="" className="w-24 mr-2" />
+          <img src={Detractors} alt="" className="w-24 mr-2" />
+          <img src={Detractors} alt="" className="w-24 mr-2" />
+          <img src={Detractors} alt="" className="w-24 mr-2" />
+          <img src={Detractors} alt="" className="w-24 mr-2" />
+          <img src={Passives} className="w-52" alt="" />
+          <img src={Promotors} className="ml-3" alt="" />
+        </div>
+        <div className="flex">
+          <p className="ml-6 md:ml-30 text-[#006FB9] text-xl mt-4 font-bold border-2 w-64 text-start border-[#006FB9]">
+            NPS
+          </p>
+          <svg
+            className="mt-5 ml-8 mr-8"
+            width="28"
+            height="20"
+            viewBox="0 0 28 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <rect x="0" y="3" width="28" height="3" rx="1.5" fill="#006FB9" />
+            <rect x="0" y="14" width="28" height="3" rx="1.5" fill="#006FB9" />
+          </svg>
+          <p className="ml-2 mt-4 text-[#006FB9] text-xl font-bold border-2 w-64 text-start">
+            % Promotors
+          </p>
+          <svg
+            className="mt-6 ml-12 mr-12"
+            width="28"
+            height="20"
+            viewBox="0 0 28 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+            focusable="false"
+          >
+            <rect x="0" y="3" width="16" height="3" rx="1.5" fill="#006FB9" />
+            {/* <rect x="0" y="14" width="28" height="3" rx="1.5" fill="#006FB9" /> */}
+          </svg>
+          <p className="ml-2 mt-4 text-[#006FB9] text-xl font-bold border-2 w-64 text-start">
+            % Promotors
+          </p>
         </div>
         <div
           className="absolute hidden md:flex w-[400px] h-[400px] rounded-full bg-[#00C3F3] -bottom-64 -left-40"
@@ -73,6 +121,76 @@ const NPS = () => {
           data-aos-duration="800"
           data-aos-delay="1000"
         ></div>
+        <div className="ml-120 mt-2">
+          <p
+            className="flex"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
+            <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
+              <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
+            </span>
+            <span className="text-[14px]">Measures customer loyalty</span>
+          </p>
+          <p
+            className="flex"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="1000"
+          >
+            <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
+              <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
+            </span>
+            <span className="text-[14px]">Identifies Promoters and Dertactors </span>
+          </p>
+          <p
+            className="flex"
+            data-aos="fade-up"
+            data-aos-duration="1400"
+            data-aos-delay="1000"
+          >
+            <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
+              <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
+            </span>
+            <span className="text-[14px]">Helps with growth strategy </span>
+          </p>
+        </div>
+        <div className="ml-216 -mt-16">
+          <p
+            className="flex"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
+            <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
+              <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
+            </span>
+            <span className="text-[14px]"> Customer feedback</span>
+          </p>
+          <p
+            className="flex"
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            data-aos-delay="1000"
+          >
+            <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
+              <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
+            </span>
+            <span className="text-[14px]">Benckmarking against competitors</span>
+          </p>
+          <p
+            className="flex"
+            data-aos="fade-up"
+            data-aos-duration="1400"
+            data-aos-delay="1000"
+          >
+            <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
+              <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
+            </span>
+            <span className="text-[14px]">Predicts Business Outcomes</span>
+          </p>
+        </div>
       </div>
     </div>
   );
