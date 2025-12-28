@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Logo from "../assets/images/ProsoftLogo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const mobileMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,6 @@ const mobileMenu = () => {
       document.body.style.overflow = "auto";
     };
   }, [isMenuOpen]);
-  const currentPath = window.location.pathname;
 
   return (
     <>
@@ -45,13 +44,13 @@ const mobileMenu = () => {
         // <div className='md:hidden fixed inset-0 bg-green-900/90 z-10 animate-drop-in flex flex-col justify-center items-center'>
         <div className="md:hidden fixed top-0 h-full pt-40  left-0 right-0 bg-white z-50 animate-drop-in flex flex-col justify-start items-center">
           <div className="flex justify-between">
-            <a href="/" className="absolute top-4 left-4">
+            <Link to="/" className="absolute top-4 left-4" onClick={() => setIsMenuOpen(false)}>
               <img
                 src={Logo}
                 alt="Nature Foot care logo"
                 className="h-16 z-50"
               />
-            </a>
+            </Link>
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`z-20 hover:text-teal-200 focus:outline-none transition-color duration-200 ${
@@ -70,46 +69,51 @@ const mobileMenu = () => {
           {/* <div className='text-center text-[20px] space-y-2 sm:px-3'>
                 <div className='px-2 pt-2 pb-3 text-center text-[20px] space-y-2 sm:px-3'> */}
           <div className="text-center text-[24px] mt-24 space-y-8 sm:px-3">
-            <a
-              className={`font-semibold block transition-color duration-200 ${
-                currentPath === "/"
+            <NavLink
+              to="/"
+              onClick={() => setIsMenuOpen(false)}
+              className={({ isActive }) => `font-semibold block transition-color duration-200 ${
+                isActive
                   ? "text-[#00B0F0] px-20 py-1 border border-[#BECC5B] bg-[#ECD3B4] rounded-4xl"
                   : "text-[#00B0F0] hover:text-teal-400"
               }`}
-              href="/"
+              end
             >
               Who We Are
-            </a>
-            <a
-              className={`font-semibold block transition-color duration-200 ${
-                currentPath === "/products"
+            </NavLink>
+            <NavLink
+              to="/products"
+              onClick={() => setIsMenuOpen(false)}
+              className={({ isActive }) => `font-semibold block transition-color duration-200 ${
+                isActive
                   ? "text-[#343929] px-20 py-1 border border-[#BECC5B] bg-[#ECD3B4] rounded-4xl"
                   : "text-[#00B0F0] hover:text-teal-400"
               }`}
-              href="/products"
             >
               What We Offer
-            </a>
-            <a
-              className={`font-semibold block transition-color duration-200 ${
-                currentPath === "/strength"
+            </NavLink>
+            <NavLink
+              to="/strength"
+              onClick={() => setIsMenuOpen(false)}
+              className={({ isActive }) => `font-semibold block transition-color duration-200 ${
+                isActive
                   ? "text-[#343929] px-20 py-1 border border-[#BECC5B] bg-[#ECD3B4] rounded-4xl"
                   : "text-[#00B0F0] hover:text-teal-400"
               }`}
-              href="/strength"
             >
               Our Strengths
-            </a>
-            <a
-              className={`font-semibold block px-4 py-1 border rounded-4xl transition-color duration-200 ${
-                currentPath === "/contact"
+            </NavLink>
+            <NavLink
+              to="/contact"
+              onClick={() => setIsMenuOpen(false)}
+              className={({ isActive }) => `font-semibold block px-4 py-1 border rounded-4xl transition-color duration-200 ${
+                isActive
                   ? "text-[#343929] px-20 py-1 border border-[#BECC5B] bg-[#ECD3B4] rounded-4xl"
                   : "border-[#BECC5B] text-[#00B0F0] hover:text-teal-400"
               }`}
-              href="/contact"
             >
               Contact Us
-            </a>
+            </NavLink>
           </div>
         </div>
       )}
