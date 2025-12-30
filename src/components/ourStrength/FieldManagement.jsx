@@ -1,6 +1,5 @@
 import React from "react";
 import FMImage from "../../assets/images/FMImage.png";
-import SC1 from "../../assets/images/SC1.png";
 
 const FieldManagement = () => {
   return (

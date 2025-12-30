@@ -35,7 +35,10 @@ const CSR = () => {
           data-aos-delay="1000"
         >
           Prosoft can help you access the performance of projects and programs
-          by tracking progress, measuring outcomes, and determining their effectiveness with our research. These studies help you improve decision-making, ensure accountability, and enhance the impact of your interventions.
+          by tracking progress, measuring outcomes, and determining their
+          effectiveness with our research. These studies help you improve
+          decision-making, ensure accountability, and enhance the impact of your
+          interventions.
         </p>
         <div
           className="hidden md:flex absolute w-[800px] h-[800px] rounded-full bg-[#00C3F3] -top-[500px] -right-100 "
@@ -145,7 +148,12 @@ const CSR = () => {
               </span>
             </span>
           </p>
-          <p className="mt-4 text-[#00C3F3] text-xl uppercase font-semibold">
+          <p
+            className="mt-4 text-[#00C3F3] text-xl uppercase font-semibold"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
             Implementation Stage
           </p>
           <p
@@ -160,11 +168,17 @@ const CSR = () => {
             <span className="font-bold text-sm">
               Monitoring surveys -
               <span className="font-normal">
-                Assess the achievement of your project as opposed to the set KPIs
+                Assess the achievement of your project as opposed to the set
+                KPIs
               </span>
             </span>
           </p>
-          <p className="mt-4 text-[#00C3F3] text-xl uppercase font-semibold">
+          <p
+            className="mt-4 text-[#00C3F3] text-xl uppercase font-semibold"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="1000"
+          >
             Evaluation Stage
           </p>
           <p
@@ -195,7 +209,8 @@ const CSR = () => {
             <span className="font-bold text-sm">
               Final Evaluation -
               <span className="font-normal">
-                Evaluate the achievements of your project as opposed to the objects set out
+                Evaluate the achievements of your project as opposed to the
+                objects set out
               </span>
             </span>
           </p>

@@ -4,7 +4,7 @@ import WhenIcon from "../../assets/images/WhenIcon.png";
 import WhereIcon from "../../assets/images/WhereIcon.png";
 import WhatIcon from "../../assets/images/WhatIcon.png";
 import WhyIcon from "../../assets/images/WhyIcon.png";
-import HowIcon from "../../assets/images/HowIcon.png";
+import HowIcon from "../../assets/images/How.png";
 
 const ConsumerUsage = () => {
   return (
@@ -65,7 +65,7 @@ const ConsumerUsage = () => {
                 },
                 {
                   title: "WHEN",
-                  text: "the usage occasions that drive choice and consumption?",
+                  text: "the usage occasions that drive choice \nand consumption?",
                   img: WhenIcon,
                 },
                 {
@@ -91,17 +91,17 @@ const ConsumerUsage = () => {
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-4">
                   <div
-                    className="w-10 h-10 flex items-center justify-center rounded-full bg-cyan-400 text-blue-700 font-bold"
+                    className="w-12 h-12 flex items-center justify-center rounded-full  text-[#006FB9] font-bold shrink-0"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="1000"
                   >
                     {/* <img src={WhoIcon} alt="" /> */}
-                    {item.img && <img src={item.img} alt="" />}
+                    {item.img && <img src={item.img} alt="" className="w-6" />}
                   </div>
                   <div>
                     <h4
-                      className="text-cyan-300 font-semibold"
+                      className="text-[#00C3F3] font-semibold"
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="1000"
@@ -109,7 +109,7 @@ const ConsumerUsage = () => {
                       {item.title}
                     </h4>
                     <p
-                      className="text-sm text-white leading-relaxed"
+                      className="text-xs md:text-sm text-white leading-relaxed"
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="1000"

@@ -50,7 +50,7 @@ const NPS = () => {
       </div>
       {/* Bottom section */}
       <div
-        className="relative flex flex-col bg-white max-w-7xl mx-auto min-h-[350px] overflow-hidden"
+        className="relative flex flex-col bg-white max-w-7xl mx-auto min-h-[350px] overflow-x-auto md:overflow-hidden"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="1000"
@@ -78,28 +78,28 @@ const NPS = () => {
           <img src={Passives} className="w-52" alt="" />
           <img src={Promotors} className="ml-3" alt="" />
         </div>
-        <div className="flex">
-          <p className="ml-6 md:ml-30 text-[#006FB9] text-xl mt-4 font-bold border-2 w-64 text-start border-[#006FB9]">
+        <div className="flex min-w-max items-center pb-6 mt-4">
+          <p className="ml-6 md:ml-30 text-[#006FB9] text-xl font-bold border-2 w-64 text-start border-[#006FB9] pl-2 py-2">
             NPS
           </p>
           <svg
-            className="mt-5 ml-8 mr-8"
+            className="ml-8 mr-8"
             width="28"
             height="20"
             viewBox="0 0 28 20"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
+            aria-hidden="false"
             focusable="false"
           >
             <rect x="0" y="3" width="28" height="3" rx="1.5" fill="#006FB9" />
             <rect x="0" y="14" width="28" height="3" rx="1.5" fill="#006FB9" />
           </svg>
-          <p className="ml-2 mt-4 text-[#006FB9] text-xl font-bold border-2 w-64 text-start">
+          <p className="ml-2 text-[#006FB9] text-xl font-bold border-2 w-64 text-start border-[#006FB9] pl-2 py-2">
             % Promotors
           </p>
           <svg
-            className="mt-6 ml-12 mr-12"
+            className="ml-12 mr-12"
             width="28"
             height="20"
             viewBox="0 0 28 20"
@@ -111,7 +111,7 @@ const NPS = () => {
             <rect x="0" y="3" width="16" height="3" rx="1.5" fill="#006FB9" />
             {/* <rect x="0" y="14" width="28" height="3" rx="1.5" fill="#006FB9" /> */}
           </svg>
-          <p className="ml-2 mt-4 text-[#006FB9] text-xl font-bold border-2 w-64 text-start">
+          <p className="ml-2 text-[#006FB9] text-xl font-bold border-2 w-64 text-start border-[#006FB9] pl-2 py-2 mr-6 md:mr-0">
             % Promotors
           </p>
         </div>
@@ -121,7 +121,8 @@ const NPS = () => {
           data-aos-duration="800"
           data-aos-delay="1000"
         ></div>
-        <div className="ml-120 mt-2">
+        <div className="flex flex-row min-w-max md:min-w-0 md:justify-center ml-88 md:ml-0 gap-10 md:gap-20 md:mt-8 px-6 pb-8">
+          <div className="space-y-2 md:ml-72">
           <p
             className="flex"
             data-aos="fade-up"
@@ -155,8 +156,8 @@ const NPS = () => {
             </span>
             <span className="text-[14px]">Helps with growth strategy </span>
           </p>
-        </div>
-        <div className="ml-216 -mt-16">
+          </div>
+          <div className="space-y-2 ml-28 md:ml-16">
           <p
             className="flex"
             data-aos="fade-up"
@@ -190,6 +191,7 @@ const NPS = () => {
             </span>
             <span className="text-[14px]">Predicts Business Outcomes</span>
           </p>
+          </div>
         </div>
       </div>
     </div>

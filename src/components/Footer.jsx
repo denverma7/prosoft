@@ -88,15 +88,19 @@ const Footer = () => {
               className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium text-center md:text-left"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              whileHover={{ scale: 1.05, rotateX: 5 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
               {QUICK_LINKS.map(({ label, href }) => (
-                <li key={label}>
+                <motion.li
+                  key={label}
+                  className="w-fit mx-auto md:mx-0"
+                  whileHover={{ scale: 1.05, rotateX: 5 }}
+                  transition={{ duration: 0.3, ease: "easeOut" }}
+                >
                   <Link to={href} className="hover:underline">
                     {label}
                   </Link>
-                </li>
+                </motion.li>
               ))}
             </motion.ul>
           </nav>

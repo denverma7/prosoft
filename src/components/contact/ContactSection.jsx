@@ -143,7 +143,7 @@ export default function ContactSection() {
           onSubmit={handleSubmit}
           className="bg-white text-gray-800 rounded-tr-3xl rounded-br-3xl shadow p-6 space-y-4"
         >
-          <div className="grid grid-cols-1 gap-4 ml-10 mr-10">
+          <div className="grid grid-cols-1 gap-4 md:mx-10">
             <p
               className="text-[#00B0F0] font-bold text-2xl md:text-3xl mt-2 mb-4"
               data-aos="fade-up"
