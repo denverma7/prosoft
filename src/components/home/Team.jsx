@@ -1,6 +1,7 @@
 import React from 'react'
 import Rasitha from '../../assets/images/team/Rasitha1.png'
 import Thisaru from '../../assets/images/team/Thisaru1.png'
+import Shenuka from '../../assets/images/team/Shenuka1.png'
 import Slider from "react-slick";
 
 
@@ -18,6 +19,12 @@ const members = [
         Desc: "With over 07 years of experience in market research, blending both quantitative and qualitative approaches, she made her mark as a Senior Research Manager at Nielsen IQ Sri Lanka (formerly Nielsen Sri Lanka). \
         Armed with a BA in Sociology and a Master’s degree in Regional Development, she has expertly navigated projects for a diverse array of high-profile clients, including UNDP, IFC, World Bank, ILO, LIRNEasia, Dialog, and NBRO. \
         Her work reflects a deep understanding of regional dynamics and global perspectives, consistently delivering insights that drive impactful decisions."
+    },
+    {
+        name: "Shenuka De Silva",
+        Image: Shenuka,
+        Desc: "Shenuka is a seasoned qualitative market research professional with over 12 years of experience in moderation and delivering deep qualitative insights. \
+        Having worked across multiple research agencies in Sri Lanka and a wide range of industries, Shenuka brings strong client understanding, rigorous qualitative techniques, and clear communication to every engagement."
     }
 ]
 
@@ -46,8 +53,8 @@ const Team = () => {
                                     <img src={member.Image} alt={member.name} className="rounded-lg w-full h-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000"/>
                                 </div>
                                 <div className="w-full md:w-2/3 text-left" >
-                                    <h2 className="text-2xl font-bold mb-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">{member.name}</h2>
-                                    <p data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">{member.Desc}</p>
+                                    <h2 className="text-2xl text-white font-bold mb-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">{member.name}</h2>
+                                    <p className='text-white font-semibold' data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">{member.Desc}</p>
                                 </div>
                             </div>
                         </div>

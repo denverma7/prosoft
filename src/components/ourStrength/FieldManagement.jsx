@@ -78,7 +78,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="font-bold whitespace-pre-line text-[13px] tracking-wide text-[#006FB9]">
                   Covering all island, 25 districts including North and East
                 </span>
               </div>
@@ -91,7 +91,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className=" font-bold whitespace-pre-line text-[13px] tracking-wide text-[#006FB9]">
                   100+ enumerators
                 </span>
               </div>
@@ -104,7 +104,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="font-bold whitespace-pre-line text-[13px] tracking-wide text-[#006FB9]">
                   Regular and project basis training to the enumerators
                 </span>
               </div>
@@ -117,7 +117,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="font-bold whitespace-pre-line text-[13px] tracking-wide text-[#006FB9]">
                   Sinhala / Tamil /English Languages
                 </span>
               </div>
@@ -130,7 +130,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Monitored centrally by field executives
                 </span>
               </div>
@@ -143,7 +143,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className=" font-bold whitespace-pre-line text-[13px] tracking-wide text-[#006FB9]">
                   Field enumerators recruited on a project basis for{" "}
                   <br className="hidden md:block" />
                   special requirements
@@ -158,7 +158,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Experienced and specialized CLT enumerators
                 </span>
               </div>
@@ -194,7 +194,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   50% total back checks
                 </span>
               </div>
@@ -207,7 +207,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Telephone back checks carried out by internal call center
                 </span>
               </div>
@@ -220,7 +220,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   100% back checks for recruited interviews, CLT, HUT, and IDI /
                   FGD
                 </span>
@@ -234,7 +234,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Google location pin collected for all F2F interviews
                 </span>
               </div>
@@ -247,7 +247,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Telephonic interviews 100% audio recorded
                 </span>
               </div>
@@ -260,7 +260,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Logical checks in-built in the data collection platform
                 </span>
               </div>
@@ -273,7 +273,7 @@ const FieldManagement = () => {
                 <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0 mt-1">
                   <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                 </div>
-                <span className="text-black font-bold whitespace-pre-line text-[13px] tracking-wide">
+                <span className="text-[#006FB9] font-bold whitespace-pre-line text-[13px] tracking-wide">
                   Pantry checks with photo proof
                 </span>
               </div>

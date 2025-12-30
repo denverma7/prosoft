@@ -27,7 +27,7 @@ const Journey = () => {
                   transition={{ duration: 0.3, ease: "easeOut" }}  
                 >
                   <p className='text-white text-[18px] font-semibold' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">2004</p>
-                  <p className='ml-28 -mt-6 font-bold' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Established as a data processing and handling company</p>
+                  <p className='ml-28 -mt-6 text-[#006FB9] font-bold' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">Established as a data processing and handling company</p>
                 </motion.div>
                 <motion.div 
                   className='ml-72 mt-6'
@@ -37,7 +37,7 @@ const Journey = () => {
                   transition={{ duration: 0.3, ease: "easeOut" }} 
                 >
                   <p className='text-white text-[18px] font-semibold' data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">2005</p>
-                  <p className='ml-32 -mt-8 font-bold' data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">Provide data processing to Neilsen retail services (Census and store level data)</p>
+                  <p className='ml-32 -mt-8 text-[#006FB9] font-bold' data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">Provide data processing to Neilsen retail services (Census and store level data)</p>
                 </motion.div>
                 <motion.div 
                   className='ml-84 mt-10'
@@ -47,7 +47,7 @@ const Journey = () => {
                   transition={{ duration: 0.3, ease: "easeOut" }}
                 >
                   <p className='text-white text-[18px] font-semibold' data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">2006</p>
-                  <p className='ml-40 -mt-12 font-semibold' data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">Expand data processing and handling service for government institutes <br /><span className='ml-8'>(Presidential Secretariat / RDB / Sustainable Energy Authority)</span></p>
+                  <p className='ml-40 -mt-12 text-[#006FB9] font-bold' data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">Expand data processing and handling service for government institutes <br /><span className='ml-8'>(Presidential Secretariat / RDB / Sustainable Energy Authority)</span></p>
                 </motion.div>
                 <motion.div 
                   className='ml-[400px] mt-8'
@@ -57,7 +57,7 @@ const Journey = () => {
                   transition={{ duration: 0.3, ease: "easeOut" }} 
                 >
                   <p className='text-white text-[18px] font-semibold' data-aos="fade-up" data-aos-duration="1600" data-aos-delay="1000">2018</p>
-                  <p className='ml-52 -mt-8 font-bold' data-aos="fade-up" data-aos-duration="1600" data-aos-delay="1000">Provide full service to clients including research and insights solutions</p>
+                  <p className='ml-52 -mt-8 text-[#006FB9] font-bold' data-aos="fade-up" data-aos-duration="1600" data-aos-delay="1000">Provide full service to clients including research and insights solutions</p>
                 </motion.div>
                 <motion.div 
                   className='ml-[460px] mt-8'
@@ -67,7 +67,7 @@ const Journey = () => {
                   transition={{ duration: 0.3, ease: "easeOut" }} 
                 >
                   <p className='text-white text-[18px] font-semibold' data-aos="fade-up" data-aos-duration="1800" data-aos-delay="1000">2019</p>
-                  <p className='ml-60 -mt-8 font-bold' data-aos="fade-up" data-aos-duration="1800" data-aos-delay="1000">Partner with FMCG players for research services</p>
+                  <p className='ml-60 -mt-8 text-[#006FB9] font-bold' data-aos="fade-up" data-aos-duration="1800" data-aos-delay="1000">Partner with FMCG players for research services</p>
                 </motion.div>
                 <motion.div 
                   className='ml-[520px] mt-16'
@@ -77,7 +77,7 @@ const Journey = () => {
                   transition={{ duration: 0.3, ease: "easeOut" }} 
                 >
                   <p className='text-white text-[18px] font-semibold' data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">2020</p>
-                  <p className='ml-72 -mt-16 font-bold' data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">Relaunched as a research agency for all <br /><span className='ml-12'>research needs with new inclusions to </span> <br /><span className='ml-20'>the leadership team</span></p>
+                  <p className='ml-72 -mt-16 text-[#006FB9] font-bold' data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">Relaunched as a research agency for all <br /><span className='ml-12'>research needs with new inclusions to </span> <br /><span className='ml-20'>the leadership team</span></p>
                 </motion.div>
             </div>
         </div>

@@ -43,7 +43,7 @@ const Header = () => {
         <span>
           <AiOutlineMail className="w-5 h-5 mr-2 mt-1 font-bold text-[#006FBA]" />
         </span>
-        <p className="mr-6 font-normal text-[#006FBA]">prosoft@gmail.com</p>
+        <p className="mr-6 font-normal text-[#006FBA]">info@prosoft.lk</p>
         <p className="mr-6 mt-1">|</p>
         <span>
           <FiPhone className="w-4 h-4 mr-2 mt-1 text-[#006FBA]" />

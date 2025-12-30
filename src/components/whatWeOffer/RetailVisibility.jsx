@@ -49,7 +49,7 @@ const InfoCard = ({ img, text, duration }) => (
     >
       <img src={img} alt={text.substring(0, 30)} className="w-full" />
       <motion.p
-        className="absolute top-1/2 left-1/2 text-black text-center text-[11px] leading-tight w-11/12 whitespace-pre-line"
+        className="absolute top-1/2 left-1/2 text-white font-semibold text-center text-[11px] md:text-[12px] leading-tight w-11/12 whitespace-pre-line"
         variants={{ rest: { scale: 1, x: "-50%", y: "-50%" }, hover: { scale: 1.05, x: "-50%", y: "-50%" } }}
         transition={{ duration: 0.3, ease: "easeOut" }}
       >

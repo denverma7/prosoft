@@ -107,7 +107,7 @@ const CSR = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="font-bold text-sm">
+            <span className="font-bold text-sm text-[#006FB9]">
               Needs Assessment -
               <span className="font-normal">
                 {" "}
@@ -124,9 +124,9 @@ const CSR = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="font-bold text-sm">
+            <span className="font-bold text-sm text-[#006FB9]">
               Stakeholder Mapping -
-              <span className="font-normal">
+              <span className="font-normal text-[#006FB9]">
                 {" "}
                 Identify all the stakeholders and their roles in your project
               </span>
@@ -141,7 +141,7 @@ const CSR = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="font-bold text-sm">
+            <span className="font-bold text-sm text-[#006FB9]">
               Baseline Assessment -
               <span className="font-normal">
                 Understand the current state of things and set a benchmark
@@ -165,9 +165,9 @@ const CSR = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="font-bold text-sm">
+            <span className="font-bold text-sm text-[#006FB9]">
               Monitoring surveys -
-              <span className="font-normal">
+              <span className="font-normal text-[#006FB9]">
                 Assess the achievement of your project as opposed to the set
                 KPIs
               </span>
@@ -190,7 +190,7 @@ const CSR = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="font-bold text-sm">
+            <span className="font-bold text-sm text-[#006FB9]">
               Impact Assessment -
               <span className="font-normal">
                 Measure the impact of your project
@@ -206,9 +206,9 @@ const CSR = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="font-bold text-sm">
+            <span className="font-bold text-sm text-[#006FB9]">
               Final Evaluation -
-              <span className="font-normal">
+              <span className="font-normal text-[#006FB9]">
                 Evaluate the achievements of your project as opposed to the
                 objects set out
               </span>

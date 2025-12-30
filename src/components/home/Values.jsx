@@ -29,7 +29,7 @@ const Values = () => {
           style={{ backgroundImage: `url(${ValuesBack})` }}
         >
           <div className="relative z-10 flex h-full">
-            <div className="text-[#00C3F3] max-w-4xl md:p-16">
+            <div className="text-white max-w-4xl md:p-16">
               <p
                 className="text-center ml-32 md:ml-40 mt-24 md:mt-28 text-[9px] md:text-[16px]"
                 data-aos="fade-up"
@@ -62,7 +62,7 @@ const Values = () => {
             </div>
             <div className="hidden md:flex flex-1 -mr-32">
               <div
-                className="text-[#00C3F3] text-3xl font-semibold mt-80"
+                className="text-white text-3xl font-semibold mt-80"
                 data-aos="fade-up"
                 data-aos-duration="1300"
                 data-aos-delay="1000"

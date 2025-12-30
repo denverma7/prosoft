@@ -115,7 +115,7 @@ const ServiceAdvantages2 = () => {
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                     </div>
-                    <span className="text-black font-bold text-sm tracking-wider">
+                    <span className="text-[#006FB9] font-bold text-sm tracking-wider">
                       {item}
                     </span>
                   </div>
@@ -148,7 +148,7 @@ const ServiceAdvantages2 = () => {
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                     </div>
-                    <span className="text-black font-bold text-sm tracking-wider whitespace-pre-line">
+                    <span className="text-[#006FB9] font-bold text-sm tracking-wider whitespace-pre-line">
                       {item}
                     </span>
                   </div>
@@ -234,7 +234,7 @@ const ServiceAdvantages2 = () => {
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                     </div>
-                    <span className="text-black font-bold whitespace-pre-line tracking-wider">
+                    <span className="text-[#006FB9] font-bold whitespace-pre-line tracking-wider">
                       {item}
                     </span>
                   </div>
@@ -261,7 +261,7 @@ const ServiceAdvantages2 = () => {
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
                     </div>
-                    <span className="text-black font-bold whitespace-pre-line tracking-wider">
+                    <span className="text-[#006FB9] font-bold whitespace-pre-line tracking-wider">
                       {item}
                     </span>
                   </div>

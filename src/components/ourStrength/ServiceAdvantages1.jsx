@@ -101,7 +101,7 @@ const ServiceAdvantages1 = () => {
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
                 <img src={ServiceIcon1} alt="" className="w-12 h-11" />
-                <p className="-mt-8 ml-16 font-bold">
+                <p className="-mt-8 ml-16 font-bold text-[#006FB9]">
                   24/7 support service to clients
                 </p>
               </motion.div>
@@ -113,7 +113,7 @@ const ServiceAdvantages1 = () => {
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
                 <img src={ServiceIcon8} alt="" className="-mt-10 ml-88" />
-                <p className="-mt-8 ml-104 font-bold">Fast turnaround</p>
+                <p className="-mt-8 ml-104 font-bold text-[#006FB9]">Fast turnaround</p>
               </motion.div>
             </div>
             <div className="ml-76 mt-2">
@@ -125,7 +125,7 @@ const ServiceAdvantages1 = () => {
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
                 <img src={ServiceIcon2} alt="" className="w-12 h-11" />
-                <p className="-mt-8 ml-16 font-bold">5 full time researchers</p>
+                <p className="-mt-8 ml-16 font-bold text-[#006FB9]">5 full time researchers</p>
               </motion.div>
               <motion.div
                 className="w-fit"
@@ -134,8 +134,8 @@ const ServiceAdvantages1 = () => {
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
-                <img src={ServiceIcon9} alt="" className="-mt-10 ml-96" />
-                <p className="-mt-12 ml-116 font-bold">
+                <img src={ServiceIcon9} alt="" className="-mt-8 ml-96 w-12 h-11" />
+                <p className="-mt-10 ml-116 font-bold text-[#006FB9]">
                   Data processing with inbuilt checks to <br />
                   guaranteed data quality
                 </p>
@@ -148,8 +148,8 @@ const ServiceAdvantages1 = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
-              <img src={ServiceIcon3} alt="" className="w-12 h-11" />
-              <p className="-mt-8 ml-16 font-bold">
+              <img src={ServiceIcon3} alt="" className="w-12 h-11 mt-2" />
+              <p className="-mt-8 ml-16 font-bold text-[#006FB9]">
                 100+ experienced field team
               </p>
             </motion.div>
@@ -160,8 +160,8 @@ const ServiceAdvantages1 = () => {
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
-              <img src={ServiceIcon4} alt="" className="w-12 h-11" />
-              <p className="-mt-8 ml-16 font-bold">Competitive pricing</p>
+              <img src={ServiceIcon4} alt="" className="w-12 h-11 mt-4" />
+              <p className="-mt-8 ml-16 font-bold text-[#006FB9]">Competitive pricing</p>
             </motion.div>
             <motion.div
               className="ml-108 mt-2 w-fit"
@@ -171,7 +171,7 @@ const ServiceAdvantages1 = () => {
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
               <img src={ServiceIcon5} alt="" className="w-12 h-11" />
-              <p className="-mt-8 ml-16 font-bold">
+              <p className="-mt-8 ml-16 font-bold text-[#006FB9]">
                 Transparency in all activities
               </p>
             </motion.div>
@@ -183,7 +183,7 @@ const ServiceAdvantages1 = () => {
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
               <img src={ServiceIcon6} alt="" className="w-12 h-11" />
-              <p className="-mt-8 ml-16 font-bold">Fulltime Field executives</p>
+              <p className="-mt-8 ml-16 font-bold text-[#006FB9]">Fulltime Field executives</p>
             </motion.div>
             <motion.div
               className="ml-128 mt-2 w-fit"
@@ -193,7 +193,7 @@ const ServiceAdvantages1 = () => {
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
               <img src={ServiceIcon7} alt="" className="w-12 h-11" />
-              <p className="-mt-10 ml-16 font-bold">
+              <p className="-mt-10 ml-16 font-bold text-[#006FB9]">
                 Network of External Consultants <br />
                 and Researchers
               </p>

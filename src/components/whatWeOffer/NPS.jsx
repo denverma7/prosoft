@@ -132,7 +132,7 @@ const NPS = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="text-[14px]">Measures customer loyalty</span>
+            <span className="text-[#006FB9] font-semibold text-[14px]">Measures customer loyalty</span>
           </p>
           <p
             className="flex"
@@ -143,7 +143,7 @@ const NPS = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="text-[14px]">Identifies Promoters and Dertactors </span>
+            <span className="text-[#006FB9] font-semibold text-[14px]">Identifies Promoters and Dertactors </span>
           </p>
           <p
             className="flex"
@@ -154,7 +154,7 @@ const NPS = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="text-[14px]">Helps with growth strategy </span>
+            <span className="text-[#006FB9] font-semibold text-[14px]">Helps with growth strategy </span>
           </p>
           </div>
           <div className="space-y-2 ml-28 md:ml-16">
@@ -167,7 +167,7 @@ const NPS = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="text-[14px]"> Customer feedback</span>
+            <span className="text-[#006FB9] font-semibold text-[14px]"> Customer feedback</span>
           </p>
           <p
             className="flex"
@@ -178,7 +178,7 @@ const NPS = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="text-[14px]">Benckmarking against competitors</span>
+            <span className=" text-[#006FB9] font-semibold text-[14px]">Benckmarking against competitors</span>
           </p>
           <p
             className="flex"
@@ -189,7 +189,7 @@ const NPS = () => {
             <span className="w-3 h-3 rounded-full mt-1 bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
               <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
             </span>
-            <span className="text-[14px]">Predicts Business Outcomes</span>
+            <span className="text-[#006FB9] font-semibold text-[14px]">Predicts Business Outcomes</span>
           </p>
           </div>
         </div>

@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <div className="w-full">
       {/* Main Footer */}
-      <div className="bg-[#E6E7E9] text-[#00C3F3] px-6 md:px-8 lg:px-16 py-10 md:py-12">
+      <div className="bg-white text-[#006FB9] px-6 md:px-8 lg:px-16 py-10 md:py-12">
         <div className="mx-auto max-w-7xl grid gap-12 md:gap-10 lg:gap-16 grid-cols-1 md:grid-cols-3">
           {/* Logo, About and Social Icons */}
           <section className="space-y-6">
@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
 
             <p
-              className="text-[#00C3F3] font-bold opacity-80 text-justify md:text-justify text-sm md:text-base max-w-md mx-auto md:mx-0"
+              className="text-[#006FB9] font-bold opacity-80 text-justify md:text-justify text-sm md:text-base max-w-md mx-auto md:mx-0"
               data-aos="fade-up"
               data-aos-delay="220"
               data-aos-ease="linear"
@@ -85,7 +85,7 @@ const Footer = () => {
               Quick link
             </h3>
             <motion.ul 
-              className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium text-center md:text-left"
+              className="space-y-2 text-[#006FB9] text-sm md:text-base font-medium text-center md:text-left"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
@@ -115,7 +115,7 @@ const Footer = () => {
             <h3 className="text-sm md:text-base font-bold underline mb-4">
               Get In Touch
             </h3>
-            <ul className="space-y-2 text-[#00C3F3] text-sm md:text-base font-medium">
+            <ul className="space-y-2 text-[#006FB9] text-sm md:text-base font-medium">
               {/* If you want the address back, uncomment: 
               <li>4679 Pin Oak Drive</li>
               <li>New Hyde Park, NC</li> 
