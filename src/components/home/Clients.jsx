@@ -71,40 +71,40 @@ const Clients = () => {
         <div className='mt-12 mb-6 ml-2 md:ml-24 md:mr-24' data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1000">
             <Slider {...sliderSettings}>
                 <div className='flex justify-center'>
-                    <img src={Nestle} alt="Nestle logo" className='w-12 h-12 md:w-24 md:h-24 '/>
+                    <img src={Nestle} alt="Nestle logo" className='w-12 h-12 md:w-20 md:h-20 '/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Fonterra} alt="Fonterra Logo" className='w-12 h-12 md:w-24 md:h-24 '/>
+                    <img src={Fonterra} alt="Fonterra Logo" className='w-12 h-12 md:w-20 md:h-20 '/>
                 </div>
                 <div className='flex justify-center'>
                     <img src={Sampath} alt="Sampath Bank Logo" className='w-24 h-12 md:w-48 md:h-18 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Keva} alt="Keva Logo" className='w-12 h-12 md:w-24 md:h-24 ' />
+                    <img src={Keva} alt="Keva Logo" className='w-12 h-12 md:w-20 md:h-20 ml-4 md:ml-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Unilever} alt="Unilever Logo" className='w-12 h-12 md:w-24 md:h-20 ' />
+                    <img src={Unilever} alt="Unilever Logo" className='w-12 h-12 md:w-20 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Anton} alt="Anton Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={Anton} alt="Anton Logo" className='w-16 h-12 md:w-36 md:h-20 -ml-8' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={CBL} alt="CBL Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={CBL} alt="CBL Logo" className='w-16 h-12 md:w-36 md:h-20 -ml-8' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Dialog} alt="Dialog Logo" className='w-20 h-12 md:w-48 md:h-20 ' />
+                    <img src={Dialog} alt="Dialog Logo" className='w-20 h-12 md:w-44 md:h-20 -ml-8' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={CA} alt="CA Logo" className='w-12 h-12 md:w-36 md:h-24 ' />
+                    <img src={CA} alt="CA Logo" className='w-20 h-12 md:w-36 md:h-20 -ml-4 md:ml-0' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Hayleys} alt="Hayleys Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={Hayleys} alt="Hayleys Logo" className='w-16 h-12 md:w-36 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Emami} alt="Emami Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={Emami} alt="Emami Logo" className='w-16 h-12 md:w-36 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Nolimit} alt="Nolimit Logo" className='w-16 h-12 md:w-28 md:h-24 ' />
+                    <img src={Nolimit} alt="Nolimit Logo" className='w-16 h-12 md:w-28 md:h-20 ' />
                 </div>
             </Slider>
             <Slider {...sliderSettings} className='mt-12'>
@@ -112,10 +112,10 @@ const Clients = () => {
                     <img src={HSBC} alt="HSBC logo" className='w-12 h-10 md:w-24 md:h-20 '/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Hutch} alt="Hutch Logo" className='w-24 h-12 md:w-44 md:h-24 '/>
+                    <img src={Hutch} alt="Hutch Logo" className='w-24 h-12 md:w-40 md:h-16 -ml-4'/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Haleon} alt="Haleon Logo" className='w-24 h-12 md:w-50 md:h-24 ' />
+                    <img src={Haleon} alt="Haleon Logo" className='w-24 h-12 md:w-50 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
                     <img src={Givaudan} alt="Givaudan Logo" className='w-20 h-10 md:w-40 md:h-20 ' />
@@ -127,58 +127,58 @@ const Clients = () => {
                     <img src={Chello} alt="Chello Logo" className='w-16 h-12 md:w-28 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Insee} alt="Insee Logo" className='w-24 h-8 md:w-44 md:h-12 mt-2 md:mt-4 ' />
+                    <img src={Insee} alt="Insee Logo" className='w-24 h-8 md:w-48 md:h-12 mt-2 md:mt-4 -ml-4 md:-ml-8 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Hemas} alt="Hemas Logo" className='w-16 h-10 md:w-32 md:h-20 ' />
+                    <img src={Hemas} alt="Hemas Logo" className='w-20 h-10 md:w-40 md:h-18 ' />
                 </div>
                 <div className='flex justify-center'>
                     <img src={Godrej} alt="Godrej Logo" className='w-16 h-10 md:w-28 md:h-16 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Heineken} alt="Heineken Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={Heineken} alt="Heineken Logo" className='w-16 h-12 md:w-36 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={NJoy} alt="NJoy Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={NJoy} alt="NJoy Logo" className='w-16 h-12 md:w-36 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Limra} alt="Limra Logo" className='w-20 h-8 md:w-36 md:h-20 ' />
+                    <img src={Limra} alt="Limra Logo" className='w-20 h-8 md:w-36 md:h-18 ' />
                 </div>
             </Slider>
 
             <Slider {...sliderSettings} className='mt-12'>
                 <div className='flex justify-center'>
-                    <img src={Flora} alt="Flora logo" className='w-12 h-12 md:w-24 md:h-24 '/>
+                    <img src={Flora} alt="Flora logo" className='w-12 h-12 md:w-20 md:h-20 '/>
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Daintee} alt="Daintee Logo" className='w-12 h-12 md:w-24 md:h-24'/>
+                    <img src={Daintee} alt="Daintee Logo" className='w-12 h-12 md:w-20 md:h-20'/>
                 </div>
                 <div className='flex justify-center'>
                     <img src={IDL} alt="IDL Logo" className='w-20 h-10 md:w-40 md:h-20  ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Keells} alt="Keells Logo" className='w-12 h-12 md:w-24 md:h-24 ' />
+                    <img src={Keells} alt="Keells Logo" className='w-12 h-12 md:w-20 md:h-20 ml-4 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={KeellsFoods} alt="KeellsFoods Logo" className='w-12 h-12 md:w-24 md:h-24 ' />
+                    <img src={KeellsFoods} alt="KeellsFoods Logo" className='w-20 h-12 md:w-40 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={ICL} alt="ICL Logo" className='w-16 h-12 md:w-36 md:h-24' />
+                    <img src={ICL} alt="ICL Logo" className='w-16 h-12 md:w-24 md:h-20 ml-4' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Dominos} alt="Dominos Logo" className='w-12 h-12 md:w-24 md:h-24 ' />
+                    <img src={Dominos} alt="Dominos Logo" className='w-12 h-12 md:w-20 md:h-20 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Maliban} alt="Maliban Logo" className='w-20 h-12 md:w-40 md:h-24 ' />
+                    <img src={Maliban} alt="Maliban Logo" className='w-20 h-12 md:w-40 md:h-20 -ml-4 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={NDB} alt="NDB Logo" className='w-18 h-18 md:w-24 md:h-24 ' />
+                    <img src={NDB} alt="NDB Logo" className='w-20 h-11 md:w-40 md:h-18' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Atlas} alt="Atlas Logo" className='w-24 h-16 md:w-36 md:h-24 ' />
+                    <img src={Atlas} alt="Atlas Logo" className='w-24 h-12 md:w-48 md:h-18 md:-ml-4 ' />
                 </div>
                 <div className='flex justify-center'>
-                    <img src={Swadeshi} alt="Swadeshi Logo" className='w-16 h-12 md:w-36 md:h-24 ' />
+                    <img src={Swadeshi} alt="Swadeshi Logo" className='w-16 h-12 md:w-28 md:h-20 ' />
                 </div>
             </Slider>
         </div>

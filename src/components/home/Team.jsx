@@ -1,7 +1,7 @@
 import React from 'react'
 import Rasitha from '../../assets/images/team/Rasitha1.png'
 import Thisaru from '../../assets/images/team/Thisaru1.png'
-import Shenuka from '../../assets/images/team/Shenuka1.png'
+import Shenuka from '../../assets/images/team/SHENUKA (5).png'
 import Slider from "react-slick";
 
 
