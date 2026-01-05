@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Picture1 from "../../assets/images/Logo2.png";
-import Hero1 from "../../assets/images/hero/Hero10.jpg";
-import Hero2 from "../../assets/images/hero/Hero11.jpg";
-import Hero3 from "../../assets/images/hero/Hero12.jpg";
+import Hero1 from "../../assets/images/hero/hero10.jpg";
+import Hero2 from "../../assets/images/hero/hero11.jpg";
+import Hero3 from "../../assets/images/hero/hero12.jpg";
 // import CrowdGif from "../../assets/images/crowd-indycar-on-nbc.gif";
 // import CrowdGif from "../../assets/images/crowd-walking.gif";
 import Slider from "react-slick";
