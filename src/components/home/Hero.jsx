@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Picture1 from "../../assets/images/Picture1.png";
-import Hero1 from "../../assets/images/hero/Hero1.jpg";
-import Hero2 from "../../assets/images/hero/Hero7.jpg";
-import Hero3 from "../../assets/images/hero/Hero3.jpg";
+import Picture1 from "../../assets/images/Logo2.png";
+import Hero1 from "../../assets/images/hero/Hero10.jpg";
+import Hero2 from "../../assets/images/hero/Hero11.jpg";
+import Hero3 from "../../assets/images/hero/Hero12.jpg";
 // import CrowdGif from "../../assets/images/crowd-indycar-on-nbc.gif";
 // import CrowdGif from "../../assets/images/crowd-walking.gif";
 import Slider from "react-slick";
@@ -42,15 +42,21 @@ const Hero = () => {
       while (mounted) {
         // Type first line
         await typeoutLine(fullText, setDisplayText);
+        if (!mounted) return;
         await wait(500); // pause after first line completes
+        if (!mounted) return;
 
         // Type second line
         await typeoutLine(fullSubtext, setDisplaySubtext);
+        if (!mounted) return;
         await wait(500); // pause after second line completes
+        if (!mounted) return;
 
         // Type third line
         await typeoutLine(fullDescription, setDisplayDescription);
+        if (!mounted) return;
         await wait(1500); // pause before loop restarts
+        if (!mounted) return;
 
         // Clear all
         setDisplayText("");
@@ -80,14 +86,14 @@ const Hero = () => {
   };
 
   return (
-    <div className="bg-white md:my-12 overflow-hidden">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto bg-white min-h-[600px] overflow-hidden">
+    <div className="bg-white mb-12 md:mb-20 overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto bg-white max-h-[500px] overflow-hidden">
         
         <div className="relative flex items-center py-12 md:py-24 md:-ml-1">
           <img
             src={Picture1}
             alt=""
-            className="w-35 h-50 md:w-70 md:h-100  "
+            className="w-35 h-35 md:w-70 md:h-70 object-contain ml-6 md:mx-0"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-delay="200"
@@ -98,19 +104,19 @@ const Hero = () => {
             data-aos-duration="1000"
             data-aos-delay="200"
           >
-            <h3 className="md:tracking-wider leading-tight font-light text-[40px] md:text-[80px] text-[#009BDF] min-h-0 md:min-h-24">
+            <h3 className="md:tracking-wider leading-tight font-light text-[40px] ml-2 md:ml-0 md:text-[80px] text-[#009BDF] min-h-0 md:min-h-24">
               {displayText}
             </h3>
-            <p className="text-[14px] md:text-[24px] font-semibold text-[#D0C6BD] min-h-0 md:min-h-10 leading-tight md:leading-normal">
+            <p className="text-[14px] md:text-[24px] font-semibold text-[#D0C6BD] ml-2 md:ml-0 min-h-0 md:min-h-10 leading-tight md:leading-normal">
               {displaySubtext}
             </p>
-            <p className="text-[#7697D3] text-[8px] md:mt-2 md:text-[16px] font-bold min-h-5 leading-normal">
+            <p className="text-[#7697D3] text-[8px] ml-2 md:ml-0 md:mt-2 md:text-[14px] font-bold min-h-5 leading-normal">
               {displayDescription}
             </p>
           </div>
         </div>
         <div
-          className="flex items-center"
+          className="flex items-center md:ml-4 "
           data-aos="fade-left"
           data-aos-duration="1000"
           data-aos-delay="200"
@@ -121,7 +127,7 @@ const Hero = () => {
                 <img
                   src={img}
                   alt={`Hero image ${index + 1}`}
-                  className="w-full h-auto object-cover rounded-lg"
+                  className="w-full  md:h-[350px] object-cover rounded-lg"
                 />
               </div>
             ))}
