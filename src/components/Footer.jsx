@@ -76,12 +76,12 @@ const Footer = () => {
 
           {/* Quick Links */}
           <nav
-            className="md:mx-auto"
+            className="md:mx-auto md:mt-6"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-ease="linear"
           >
-            <h3 className="text-sm md:text-base font-bold underline mb-4 text-center md:text-left">
+            <h3 className="text-sm md:text-base font-bold underline mb-4  text-center md:text-left">
               Quick link
             </h3>
             <motion.ul 
@@ -110,7 +110,7 @@ const Footer = () => {
             data-aos="fade-up"
             data-aos-delay="340"
             data-aos-ease="linear"
-            className="text-center md:text-left"
+            className="text-center md:text-left md:mt-6"
           >
             <h3 className="text-sm md:text-base font-bold underline mb-4">
               Get In Touch
