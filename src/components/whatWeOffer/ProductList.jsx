@@ -146,7 +146,7 @@ const ProductList = () => {
           </div>
           {/* Circular element - bottom center */}
           <div
-            className="flex items-center justify-center mt-auto overflow-hidden -mb-16"
+            className="flex items-center justify-center mt-auto overflow-hidden "
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="1000"
@@ -235,7 +235,7 @@ const ProductList = () => {
             </div>
             {/* Circular element - bottom center */}
             <div
-              className="flex items-end justify-end mt-20 overflow-hidden -mb-40 -mr-24"
+              className="flex items-end justify-end mt-20 overflow-hidden -mb-20 -mr-12"
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="1000"
@@ -243,7 +243,7 @@ const ProductList = () => {
               {/* <div className="mt-10 w-100 h-100 rounded-full bg-[#006FB9] flex items-center justify-center mr-3 shrink-0">
                 <div className="w-68 h-68 rounded-full bg-[#00C3F3]"></div>
               </div> */}
-              <img src={ProductList4} alt="" className="pl-4 -pb-8"/>
+              <img src={ProductList4} alt="" className="pl-4 pb-12"/>
             </div>
           </div>
         </div>
