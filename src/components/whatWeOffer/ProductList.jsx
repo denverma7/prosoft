@@ -82,7 +82,7 @@ const ProductList = () => {
           >
             {/* <div className="absolute left-1/2 top-6 w-40 h-40 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#006FB9]" />
             <div className="absolute left-1/2 top-6 w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#00C3F3]" /> */}
-            <img src={ProductList1} alt="" className="absolute left-1/2 top-6 -translate-x-1/2 -translate-y-1/2"/>
+            <img src={ProductList1} alt="" className="absolute left-1/2 w-40 h-[100px] top-12 -translate-x-1/2 -translate-y-1/2"/>
           </div>
           {/* 1st Column Heading */}
           <h3
