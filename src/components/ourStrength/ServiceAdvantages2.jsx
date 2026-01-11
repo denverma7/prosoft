@@ -3,6 +3,8 @@ import ServicesImage2 from "../../assets/images/services/ServiceImage2.png";
 import ServiceImg1 from "../../assets/images/services/ServiceImg1.png";
 import ServiceImg2 from "../../assets/images/services/ServiceImg2.png";
 
+import { motion } from "framer-motion";
+
 const ServiceAdvantages2 = () => {
   const quantitativeResearch = [
     "F2F / D2D",
@@ -105,12 +107,14 @@ const ServiceAdvantages2 = () => {
               <img src={ServiceImg1} alt="" className="w-20 h-auto" />
               <div className="space-y-2">
                 {quantitativeResearch.map((item, index) => (
-                  <div
+                  <motion.div
                     key={item}
                     className="flex items-center"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={100 * (index + 10)}
+                    whileHover={{ scale: 1.1, originX: 0 }}
+                    transition={{ type: "spring", stiffness: 300 }}
                   >
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
@@ -118,7 +122,7 @@ const ServiceAdvantages2 = () => {
                     <span className="text-[#006FB9] font-bold text-sm tracking-wider">
                       {item}
                     </span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>
@@ -138,12 +142,16 @@ const ServiceAdvantages2 = () => {
               <img src={ServiceImg2} alt="" className="w-20 h-auto" />
               <div className="space-y-2">
                 {qualitativeResearch.map((item, index) => (
-                  <div
+                  <motion.div
                     key={item}
                     className="flex items-center"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={100 * (index + 12)}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    whileHover={{ scale: 1.05 }}
+                    transition={{ duration: 0.3, ease: "easeOut" }}u
                   >
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
@@ -151,7 +159,7 @@ const ServiceAdvantages2 = () => {
                     <span className="text-[#006FB9] font-bold text-sm tracking-wider whitespace-pre-line">
                       {item}
                     </span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>
@@ -224,12 +232,14 @@ const ServiceAdvantages2 = () => {
               <img src={ServiceImg1} alt="" className="w-28 h-24 mt-4" />
               <div className="ml-32 -mt-20 space-y-2">
                 {quantitativeResearch.map((item, index) => (
-                  <div
+                  <motion.div
                     key={item}
                     className="flex items-center"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={100 * (index + 10)}
+                    whileHover={{ scale: 1.1, originX: 0 }}
+                    transition={{ type: "spring", stiffness: 300 }}
                   >
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
@@ -237,7 +247,7 @@ const ServiceAdvantages2 = () => {
                     <span className="text-[#006FB9] font-bold whitespace-pre-line tracking-wider">
                       {item}
                     </span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>
@@ -251,12 +261,14 @@ const ServiceAdvantages2 = () => {
               </div>
               <div className="ml-24 mt-24 space-y-2">
                 {qualitativeResearch.map((item, index) => (
-                  <div
+                  <motion.div
                     key={item}
                     className="flex items-center"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={100 * (index + 12)}
+                    whileHover={{ scale: 1.1, originX: 0 }}
+                    transition={{ type: "spring", stiffness: 300 }}
                   >
                     <div className="w-3 h-3 rounded-full bg-[#00C3F3] flex items-center justify-center mr-3 shrink-0">
                       <div className="w-1.5 h-1.5 rounded-full bg-white"></div>
@@ -264,7 +276,7 @@ const ServiceAdvantages2 = () => {
                     <span className="text-[#006FB9] font-bold whitespace-pre-line tracking-wider">
                       {item}
                     </span>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
             </div>
