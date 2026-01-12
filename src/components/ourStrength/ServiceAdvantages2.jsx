@@ -1,5 +1,5 @@
 import React from "react";
-import ServicesImage2 from "../../assets/images/services/ServiceImage2.png";
+import ServicesImage2 from "../../assets/images/services/ServiceImage3.png";
 import ServiceImg1 from "../../assets/images/services/ServiceImg1.png";
 import ServiceImg2 from "../../assets/images/services/ServiceImg2.png";
 
@@ -25,7 +25,7 @@ const ServiceAdvantages2 = () => {
   ];
 
   const serviceDescription = [
-    { text: "Prosoft", margin: "mr-[100px] md:mr-[93px]" },
+    { text: "Prosoft", margin: "mr-[125px] md:mr-[93px]" },
     { text: "specializes", margin: "mr-24 md:mr-22" },
     { text: "in providing", margin: "mr-23 md:mr-21" },
     { text: "both", margin: "mr-[86px] md:mr-[80px]" },
@@ -87,13 +87,13 @@ const ServiceAdvantages2 = () => {
               alt="Our Service Advantages"
               className="w-full h-auto"
             />
-            <div className="absolute top-60 right-6 flex flex-col items-end text-white font-normal text-sm drop-shadow-md">
+            {/* <div className="absolute top-60 right-6 flex flex-col items-end text-white font-normal text-sm drop-shadow-md">
               {serviceDescription.map((line, index) => (
                 <span key={index} className={`${line.margin} text-right`}>
                   {line.text}
                 </span>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="mt-8 space-y-12">
@@ -201,13 +201,13 @@ const ServiceAdvantages2 = () => {
               alt="Our Service Advantages"
               className="max-h-[488px]"
             />
-            <div className="absolute top-48 left-16 flex flex-col items-end text-white font-normal text-[11px] drop-shadow-md">
+            {/* <div className="absolute top-48 left-16 flex flex-col items-end text-white font-normal text-[11px] drop-shadow-md">
               {serviceDescription.map((line, index) => (
                 <span key={index} className={`${line.margin} text-right`}>
                   {line.text}
                 </span>
               ))}
-            </div>
+            </div> */}
           </div>
 
           <h3
