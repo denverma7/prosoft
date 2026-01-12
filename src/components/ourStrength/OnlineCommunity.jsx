@@ -241,7 +241,7 @@ const OnlineCommunity = () => {
           </div>
           {/* Table Details */}
           <div
-            className="mt-6 ml-2 md:ml-0 mb-6 md:mb-0"
+            className="mt-6 mx-auto mb-6 md:mb-0"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="1500"
