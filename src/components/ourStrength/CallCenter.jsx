@@ -5,15 +5,25 @@ import { motion } from "framer-motion";
 const CallCenter = () => {
   return (
     <div className="relative bg-[#dddedf] h-auto p-4 md:p-12">
-      <div className="relative overflow-hidden w-full max-w-7xl h-full min-h-[300px] mx-auto bg-[#00C3F3]">
-        <div className="absolute inset-0 bg-[url('/src/assets/images/HalfLogo.png')] bg-cover h-20 w-20 md:h-28 md:w-28 ml-4 mt-4 md:ml-16 md:mt-8"></div>
-        <h2 className="ml-6 md:ml-48 mt-24 md:mt-12 text-[#006FB9] text-4xl md:text-7xl font-normal tracking-wide">
+      <div
+        className="relative overflow-hidden w-full max-w-7xl h-full min-h-[300px] mx-auto bg-[#00C3F3]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      >
+        <div
+          className="absolute inset-0 bg-[url('/src/assets/images/HalfLogo.png')] bg-cover h-20 w-20 md:h-28 md:w-28 ml-4 mt-4 md:ml-16 md:mt-8"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        ></div>
+        <h2 className="ml-6 md:ml-48 mt-24 md:mt-12 text-[#006FB9] text-4xl md:text-7xl font-normal tracking-wide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           Prosoft
         </h2>
-        <h2 className="ml-6 md:ml-48 mt-2 text-white text-4xl md:text-7xl font-extralight tracking-wide">
+        <h2 className="ml-6 md:ml-48 mt-2 text-white text-4xl md:text-7xl font-extralight tracking-wide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           Call Center
         </h2>
-        <p className="ml-6 md:ml-48 mt-4 md:mt-2 text-white text-sm md:text-lg font-normal tracking-wide pr-4 md:pr-0">
+        <p className="ml-6 md:ml-48 mt-4 md:mt-2 text-white text-sm md:text-lg font-normal tracking-wide pr-4 md:pr-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
           Prosoft internal call center offers you telephonic surveys at a
           minimal cost. Internally <br className="hidden md:block" />
           established call center with permanent staff, ensuring qiality and

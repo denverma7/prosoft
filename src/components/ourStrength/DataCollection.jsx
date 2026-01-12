@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 const DataCollection = () => {
   const collection = [
-    "Regular training for ﬁeld team to improve \ndata quality standards",
-    "Quality based performance bonus to motivate \nﬁeld team",
-    "Accompanied visits, back checks, telephone \nchecks use for monitoring",
-    "Full transparency and client participation \nfor effective management of the project",
+    "Regular training for ﬁeld team to improve data quality standards",
+    "Quality based performance bonus to motivate ﬁeld team",
+    "Accompanied visits, back checks, telephone checks use for monitoring",
+    "Full transparency and client participation for effective management of the project",
   ];
 
   return (
@@ -83,7 +83,7 @@ const DataCollection = () => {
             {collection.map((item, index) => (
               <motion.div
                 key={item}
-                className="flex items-center"
+                className="flex items-center md:mr-12"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay={100 * (index + 12)}

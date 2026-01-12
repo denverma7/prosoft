@@ -4,6 +4,7 @@ import ServiceAdvantages2 from "../components/ourStrength/ServiceAdvantages2";
 import FieldManagement from "../components/ourStrength/FieldManagement";
 import CallCenter from "../components/ourStrength/CallCenter";
 import DataCollection from "../components/ourStrength/DataCollection";
+import OnlineCommunity from "../components/ourStrength/OnlineCommunity";
 
 const Strength = () => {
   return (
@@ -12,6 +13,7 @@ const Strength = () => {
       <ServiceAdvantages2 />
       <FieldManagement />
       <CallCenter />
+      <OnlineCommunity />
       <DataCollection />
     </div>
   );
