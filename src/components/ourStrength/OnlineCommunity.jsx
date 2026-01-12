@@ -79,7 +79,12 @@ const OnlineCommunity = () => {
           respondent base of a variety of consumer proﬁles with <br /> age,
           gender, SEC and geographical location.
         </p>
-        <p className="md:hidden ml-6 mt-4 text-white text-sm font-normal tracking-wide pb-4 pr-4 ">
+        <p
+          className="md:hidden ml-6 mt-4 text-white text-sm font-normal tracking-wide pb-4 pr-4 "
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="800"
+        >
           With Prosoft online community you can carry out online surveys at a
           minimal cost. Prosoft online community offers you a vast respondent
           base of a variety of consumer proﬁles with age, gender, SEC and
@@ -236,7 +241,7 @@ const OnlineCommunity = () => {
           </div>
           {/* Table Details */}
           <div
-            className="mt-6"
+            className="mt-6 ml-2 md:ml-0 mb-6 md:mb-0"
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-delay="1500"
