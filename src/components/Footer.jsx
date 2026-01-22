@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Logo from "../assets/images/ProsoftLogoDark.png";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
+import { FaFacebookF, FaLinkedinIn } from "react-icons/fa6";
 
 const Footer = () => {
   const { pathname } = useLocation();
@@ -15,6 +16,19 @@ const Footer = () => {
     { label: "What We Offer", href: "/products" },
     { label: "Our Strength", href: "/strength" },
     { label: "Contact Us", href: "/contact" },
+  ];
+
+  const SOCIALS = [
+    {
+      icon: <FaFacebookF className="w-5 h-5" />,
+      label: "Facebook",
+      href: "https://www.facebook.com/ProsoftResearchInsights",
+    },
+    {
+      icon: <FaLinkedinIn className="w-5 h-5" />,
+      label: "LinkedIn",  
+      href: "https://www.linkedin.com/company/prosoft-operations-soluions-pvt-ltd/",
+    },
   ];
 
   return (
@@ -52,26 +66,6 @@ const Footer = () => {
               tailored to our clients' specific needs..
             </p>
 
-            {/* Social Icons */}
-            <div
-              className="flex justify-center md:justify-start gap-3"
-              data-aos="fade-up"
-              data-aos-delay="240"
-              data-aos-ease="linear"
-            >
-              {/* {SOCIALS.map(({ icon, label, href }) => (
-                <a
-                  key={label}
-                  aria-label={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-2 rounded-full hover:bg-white hover:text-[#4A1D2C] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-white/70"
-                >
-                  {icon}
-                </a>
-              ))} */}
-            </div>
           </section>
 
           {/* Quick Links */}
@@ -85,7 +79,7 @@ const Footer = () => {
               Quick link
             </h3>
             <motion.ul 
-              className="space-y-2 text-[#006FB9] text-sm md:text-base font-medium text-center md:text-left"
+              className="space-y-3 md:space-x-2 text-[#006FB9] text-sm md:text-base font-medium text-center md:text-left"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
@@ -138,6 +132,26 @@ const Footer = () => {
                 </button>
               </li> */}
             </ul>
+            {/* Social Icons */}
+            <div
+              className="flex justify-center md:justify-start gap-3 mt-4"
+              data-aos="fade-up"
+              data-aos-delay="240"
+              data-aos-ease="linear"
+            >
+              {SOCIALS.map(({ icon, label, href }) => (
+                <a
+                  key={label}
+                  aria-label={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2 rounded-full bg-[#E6E7E9] text-[#006FB9] hover:bg-[#006FB9] hover:text-white transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#006FB9]"
+                >
+                  {icon}
+                </a>
+              ))}
+            </div>
           </section>
         </div>
       </div>
@@ -173,4 +187,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
