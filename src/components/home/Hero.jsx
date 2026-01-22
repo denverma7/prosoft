@@ -5,11 +5,9 @@ import Hero2 from "../../assets/images/hero/hero11.jpg";
 import Hero3 from "../../assets/images/hero/hero12.jpg";
 // import CrowdGif from "../../assets/images/crowd-indycar-on-nbc.gif";
 // import CrowdGif from "../../assets/images/crowd-walking.gif";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
@@ -18,7 +16,8 @@ const Hero = () => {
   const fullText = "Prosoft";
   const fullSubtext = "Research & Insights";
   const fullDescription = "Think Ahead: Informed Choices for Your Brand";
-  const charDelay = 100; // delay between each character
+  const charDelay = 75; // delay between each character
+  const [index, setIndex] = useState(0);
 
   const heroImages = [Hero1, Hero2, Hero3];
 
@@ -72,23 +71,16 @@ const Hero = () => {
     };
   }, []);
 
-  const sliderSettings = {
-    dots: false,
-    arrows: false,
-    infinite: true,
-    speed: 1500,
-    fade: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-  };
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIndex((state) => (state + 1) % heroImages.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="bg-white mb-12 md:mb-20 overflow-hidden">
       <div className="grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto bg-white max-h-[500px] overflow-hidden">
-        
         <div className="relative flex items-center py-12 md:py-24 md:-ml-1">
           <img
             src={Picture1}
@@ -121,17 +113,18 @@ const Hero = () => {
           data-aos-duration="1000"
           data-aos-delay="200"
         >
-          <Slider {...sliderSettings} className="w-full">
-            {heroImages.map((img, index) => (
-              <div key={index}>
-                <img
-                  src={img}
-                  alt={`Hero image ${index + 1}`}
-                  className="w-full  md:h-[350px] object-cover rounded-lg"
-                />
-              </div>
-            ))}
-          </Slider>
+          <div className="relative w-full h-[300px] md:h-[350px]">
+              <motion.img
+                key={index}
+                src={heroImages[index]}
+                alt={`Hero image ${index + 1}`}
+                initial={{ opacity: 0, filter: "blur(10px)" }}
+                animate={{ opacity: 1, filter: "blur(0px)" }}
+                exit={{ opacity: 0, filter: "blur(10px)" }}
+                transition={{ duration: 0.5}}
+                className="absolute top-0 left-0 w-full h-full object-cover rounded-lg"
+              />
+          </div>
           {/* <img
             src={CrowdGif}
             alt="Busy crowd of people walking"

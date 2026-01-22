@@ -8,6 +8,7 @@ const MysteryShopper = () => {
     <div className="relative bg-white mt-12 mb-12">
       <div className="relative overflow-hidden bg-[#00C3F3] min-h-[600px] h-full max-w-7xl w-full mx-auto">
         <div className="relative md:static">
+          {/* top curve */}
           <span
             className="absolute w-[900px] h-[900px] rounded-full bg-[#006FB9] -top-[520px] -left-60"
             data-aos="fade-up"
